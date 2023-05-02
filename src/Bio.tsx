@@ -19,12 +19,12 @@ export default function Bio() {
                             I'm passionate about creating <span className='bio-highlights'>inclusive experiences</span> that are fun, engaging, and delightful. <span className='bio-highlights'>Data visualization</span>, <span className='bio-highlights'>3D</span>, and <span className='bio-highlights'>customer-facing SaaS tools</span> are some of my favorite things to work on.
                         </p>
                         <p className="small">
-                            I'm also a <span className='bio-highlights'>travel enthusiast</span> (15 countries and counting), <span className='bio-highlights'>cat worshipper</span>, <span className='bio-highlights'>tea drinker</span> and <span className='bio-highlights'>fitness lover</span>. Music and movies are essential. I explore many genres, but currently, I'm diving back in <span className='bio-highlights'>City Pop</span> as warmer days approach.
+                            I'm also a <span className='bio-highlights'>travel enthusiast</span> (15 countries and counting), <span className='bio-highlights'>cat worshipper</span>, <span className='bio-highlights'>tea drinker</span>, and <span className='bio-highlights'>fitness lover</span>. Music and movies are essential. I explore many genres, but currently, I'm diving back in <span className='bio-highlights'>City Pop</span> as warmer days approach.
                         </p>
                         <p className="small">
-                            <em><strong>Interested in working together or just saying hi?
+                            <em><strong>Let's connect!
                                 <br />
-                                Hit me up at <a href="mailto:sl30724@gmail.com"><span className='bio-email'>sl30724@gmail.com</span></a>
+                                Drop me an email at <a href="mailto:sl30724@gmail.com"><span className='bio-email'>sl30724@gmail.com</span></a>
                             </strong></em>
                         </p>
 
