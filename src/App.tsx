@@ -26,7 +26,7 @@ function App() {
           <div className="Intro-header">
             <div className="name">
               <h1>Hi, I'm Sandy</h1>
-              <p className='subtitle'>Designer, UX architect, Creative developer</p>
+              <p className='subtitle'>Interaction Designer, Creative Developer</p>
               <p>
                 I design and build joyful digital experiences that tell meaningful stories, striking the perfect balance between accessibility and aesthetics.
               </p>
@@ -41,7 +41,7 @@ function App() {
             <div className="socialmedia">
               <a href="https://www.linkedin.com/in/meihsuan-lee/" target="_blank" rel="noopener noreferrer" title='LinkedIn Profile'><Icon icon="ri:linkedin-fill" style={{ fontSize: '26px' }} className='social-icon' label='LinkedIn icon' /></a>
               <a href="https://www.behance.net/sandylee17" target="_blank" rel="noopener noreferrer" title='Behance Profile'><Icon icon="ion:logo-behance" style={{ fontSize: '26px' }} className='social-icon' label='Behance icon' /></a>
-              <a href="mailto:sl30724@google.com" title="Send an email"><Icon icon="material-symbols:mail" style={{ fontSize: '26px' }} className='social-icon' label='Mail icon' /></a>
+              <a href="mailto:work@sandylee.site" title="Send an email"><Icon icon="material-symbols:mail" style={{ fontSize: '26px' }} className='social-icon' label='Mail icon' /></a>
             </div>
             <div className='arrow-container'>
             <Link tabIndex={0} to='Projects' spy={true} smooth={true} duration={500}><Icon icon="material-symbols:arrow-back-rounded" style={{fontSize:"36px"}} className='down-arrow'/></Link>

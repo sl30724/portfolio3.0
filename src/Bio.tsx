@@ -24,7 +24,7 @@ export default function Bio() {
                         <p className="small">
                             <em><strong>Let's connect!
                                 <br />
-                                Drop me an email at <a href="mailto:sl30724@gmail.com"><span className='bio-email'>sl30724@gmail.com</span></a>
+                                Drop me an email at <a href="mailto:work@sandylee.site"><span className='bio-email'>work@sandylee.site</span></a>
                             </strong></em>
                         </p>
 
