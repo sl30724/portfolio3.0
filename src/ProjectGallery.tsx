@@ -71,7 +71,7 @@ export default function ProjectGallery() {
               links={
                 [{ site: "web", url: "https://www.behance.net/gallery/164272405/Craigslist-Redesign" }
                 ]}
-              description="Redesigning the Craigslist App with a clearer information structure, refined design system, and safety features for an elevated experience." />
+              description="Elevating the Craigslist experience and creating a sense of trust with a refined design system, clearer information hierarchy, and thoughtful safety features while keeping Craigslist's simplicity and minimalism." />
           </div>
           <div className="Project-highlights">
             <ProjectCard name="VoteAlly"
@@ -83,7 +83,7 @@ export default function ProjectGallery() {
               links={
                 [{ site: "web", url: "https://www.behance.net/gallery/163967077/VoteAlly" }
                 ]}
-              description="Designing a streamlined voting preparation tool for people who wish to cast smarter votes with less time." />
+              description="Streamlining the voting preparation process for voters who wish to cast smarter votes with less efforts and time." />
             <ProjectCard name='The Future of Contact Tracing'
               highlight={true}
               tools={["Figma"]}
@@ -92,7 +92,7 @@ export default function ProjectGallery() {
               links={
                 [{ site: "web", url: "https://www.behance.net/gallery/167001077/The-Future-of-Contact-Tracing?" },
                 ]}
-              description="Mobile app design project with the aim for contact tracing to be widely adopted in future pandemics while ethical concerns." />
+              description="Crafting the future of contact tracing for future pandemics that addresses ethical conerns by prioritizing users' preferences." />
           </div>
         </div>
         <div className='projects'>
@@ -167,7 +167,7 @@ function ProjectCard(props: Project) {
           :
           <p className='subtitle'>{props.name}</p>}
         {props.highlight ?
-          <p className='small'>{props.description}</p>
+          <p className='small project-desc'>{props.description}</p>
           :
           <p className="caption">{props.description}</p>}
         {props.highlight && props.ready &&
