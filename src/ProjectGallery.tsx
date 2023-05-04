@@ -102,10 +102,10 @@ export default function ProjectGallery() {
           <div className="Project-highlights">
             <ProjectCard name='Sounds of Taipei'
               highlight={true}
-              tools={["ReactJS", "Typescript", "CSS", "HTML", "Figma"]}
+              tools={["React.js", "Typescript", "GSAP", "CSS", "HTML"]}
               src="/pics/st.gif"
               ready={true}
-              type="design + development"
+              type="dev"
               links={
                 [{ site: "web", url: "https://sounds-of-taipei.sandylee.site/" },
                 { site: "github", url: "https://github.com/sl30724/fwd-project2" },
@@ -113,9 +113,10 @@ export default function ProjectGallery() {
               description="Crafting a delightful virtual experience that brings visitors to the city of Taipei with mesmerizing audio and visual effects." />
             <ProjectCard name='Museum of Rudeness'
               highlight={true}
-              tools={["ReactJS", "Typescript", "WebGL", "CSS", "HTML", "Figma"]}
+              tools={["React.js", "Typescript", "Three.js", "CSS", "HTML"]}
               src="/pics/mr.gif"
               ready={true}
+              type="dev"
               links={
                 [{ site: "web", url: "" },
                 ]}
@@ -133,7 +134,7 @@ function ProjectCard(props: Project) {
   // tools
   const tools = props.tools;
   const toolItems = tools.map((tool, index) =>
-    <li key={index} className={"tool-item"}>{tool}</li>
+    <li key={index}>{tool}</li>
   );
 
   // links
@@ -170,6 +171,10 @@ function ProjectCard(props: Project) {
           <p className='small project-desc'>{props.description}</p>
           :
           <p className="caption">{props.description}</p>}
+        {props.type === "dev" &&
+          <p className="caption project-tools"><em><ul>{toolItems}</ul>
+          </em></p>
+        }
         {props.highlight && props.ready &&
           <a href={props.links[0].url} target="_blank" rel="noreferrer" className='button view-but-text'>View Details<Icon icon="radix-icons:open-in-new-window" className='view-icon' /></a>
         }

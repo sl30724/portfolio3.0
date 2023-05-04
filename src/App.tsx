@@ -44,8 +44,8 @@ function App() {
               <a href="mailto:work@sandylee.site" title="Send an email"><Icon icon="material-symbols:mail" style={{ fontSize: '26px' }} className='social-icon' label='Mail icon' /></a>
             </div>
             <div className='arrow-container'>
-            <Link tabIndex={0} to='Projects' spy={true} smooth={true} duration={500}><Icon icon="material-symbols:arrow-back-rounded" style={{fontSize:"36px"}} className='down-arrow'/></Link>
-          </div>    
+              <Link tabIndex={0} to='Projects' spy={true} smooth={true} duration={500}><Icon icon="material-symbols:arrow-back-rounded" style={{ fontSize: "36px" }} className='down-arrow' /></Link>
+            </div>
           </div>
         </section>
 

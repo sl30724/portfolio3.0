@@ -13,7 +13,6 @@ import { HtmlLogo } from "./logos/HtmlLogo";
 export default function Scene() {
     return (
         <Suspense fallback={null}>
-
             <Float speed={1.5} rotationIntensity={0.6} floatIntensity={1} floatingRange={[-1, 0]}>
                 <FigmaLogo position={[1.5, 60, -6.5]} rotation={[0, -Math.PI / 2, 0]} />
                 <ReactLogo position={[3, 100, -3]} rotation={[0, -Math.PI / 2, 0]} />
