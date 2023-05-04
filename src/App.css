@@ -325,6 +325,10 @@ a:hover {
   gap: 60px;
 }
 
+.hl {
+  border-bottom: solid 1px var(--outline);
+}
+
 .Project-highlights {
   display: flex;
   flex-flow: row wrap;
@@ -332,7 +336,6 @@ a:hover {
   justify-content: center;
   width: 100%;
   gap: 20px;
-  padding: 20px;
 }
 
 .project-card-highlight {
@@ -343,6 +346,7 @@ a:hover {
   justify-content: flex-start;
   align-items: flex-start;
   border-radius: 20px;
+  padding: 20px 0;
 }
 
 .project-img {
@@ -541,6 +545,10 @@ footer {
   .bio-gif {
     width: 70%;
   }
+
+  .project-desc {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 885px) {
@@ -586,6 +594,15 @@ footer {
   .form-box {
     min-width: 70%;
   }
+
+  .project-card-highlight {
+    flex: 1 0 calc(100%);
+    padding: 10px 0;
+  }
+
+  .Intro-header p {
+    max-width: 85%;
+  }
 }
 
 @media screen and (max-width: 660px) {
@@ -597,7 +614,7 @@ footer {
   }
 
   .Intro-header p {
-    max-width: 85%;
+    max-width: 95%;
   }
 
 }
@@ -610,14 +627,8 @@ footer {
   }
 
   .Intro-header p {
-    max-width: 95%;
+    max-width: 100%;
   }
-
-  .project-card-highlight {
-    flex-flow: column nowrap;
-    gap: 20px;
-  }
-
 
 }
 
@@ -628,9 +639,7 @@ footer {
     overflow: hidden;
   }
 
-  .Intro-header p {
-    max-width: 100%;
-  }
+
 }
 
 @media screen and (max-width: 415px) {
