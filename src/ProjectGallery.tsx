@@ -118,7 +118,7 @@ export default function ProjectGallery() {
               ready={true}
               type="dev"
               links={
-                [{ site: "web", url: "" },
+                [{ site: "web", url: "https://www.behance.net/gallery/169880687/Museum-of-Rudeness" },
                 ]}
               description="Reimagining virtual 3D museum experiences with just the right amount of fun, knowledge, and interaction." />
           </div>
