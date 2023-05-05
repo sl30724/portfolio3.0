@@ -26,7 +26,7 @@ function App() {
           <div className="Intro-header">
             <div className="name">
               <h1>Hi, I'm Sandy</h1>
-              <p className='subtitle profession'>Interaction Designer, Creative Developer</p>
+              <p className='subtitle profession'>Product Designer, UX/UI Developer</p>
               <p>
                 I design and build joyful digital experiences that tell meaningful stories, striking the perfect balance between accessibility and aesthetics.
               </p>
