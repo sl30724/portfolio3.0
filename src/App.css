@@ -531,6 +531,15 @@ footer {
   #scene-container {
     width: 80vw;
   }
+
+  .bio-header {
+    flex-flow: column-reverse wrap;
+  }
+
+  .bio-gif {
+    width: 70%;
+  }
+  
 }
 
 @media screen and (max-width: 990px) {
@@ -542,14 +551,6 @@ footer {
   .Intro-header {
     margin-top: 40vh;
     width: 100%;
-  }
-
-  .bio-header {
-    flex-flow: column-reverse wrap;
-  }
-
-  .bio-gif {
-    width: 70%;
   }
 
   .project-desc {
