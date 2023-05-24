@@ -13,7 +13,7 @@ export default function Bio() {
                         <p className="small">
                             I'm Sandy, a recent <span className='bio-highlights'>MS graduate in Creative Tech & Design</span> from CU Boulder, where I studied HCI and creative tech.
 
-                            I think of myself as a creative problem solver and lifelong learner before designer & developer. I believe understanding "why" is the most important step in any projects. I'm always curious about how things work and how to make them better. I'm a <span className='bio-highlights'>big picture thinker</span> who loves to <span className='bio-highlights'>connect the dots</span> and <span className='bio-highlights'>bridge the gap</span> between people and technology.
+                            I think of myself as a creative problem solver and lifelong learner before designer & developer. I believe understanding "why" is the most important step in any project. I'm always curious about how things work and how to make them better. I'm a <span className='bio-highlights'>big picture thinker</span> who loves to <span className='bio-highlights'>connect the dots</span> and <span className='bio-highlights'>bridge the gap</span> between people and technology.
                         </p>
                         <p className="small">
                             I'm passionate about creating <span className='bio-highlights'>inclusive experiences</span> that are fun, engaging, and delightful. <span className='bio-highlights'>Data visualization</span>, <span className='bio-highlights'>3D</span>, and <span className='bio-highlights'>customer-facing SaaS tools</span> are some of my favorite things to work on.
