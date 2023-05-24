@@ -20,19 +20,13 @@ export default function MobileNav() {
                     direction="left"
                     toggled={navOpen}
                     toggle={setNavOpen}
-                    onToggle={navOpen => {
-                        if (navOpen) {
-                            document.body.style.overflow = 'hidden';
-                        } else if (!navOpen && typeof window !== 'undefined' && window.document) {
-                            document.body.style.overflow = 'unset';
-                        }
-                    }} />
+                    />
             </div>
             <div className={`menuLayer-${navOpen ? "shown" : "hidden"}`}>
-                    <Link className="menu-item mobile-menu-item" activeClass="active-menu-item" to='Projects' spy={true} smooth={true} duration={500}><h2 className='subtitle2'>Projects</h2></Link>
-                    <Link className="menu-item mobile-menu-item" activeClass="active-menu-item" to='Bio' spy={true} smooth={true} duration={500}><h2 className='subtitle2'>About</h2></Link>
-                    <Link className="menu-item mobile-menu-item" activeClass="active-menu-item" to='Contact' spy={true} smooth={true} duration={500}><h2 className='subtitle2'>Contact</h2></Link>
-                    <a className="menu-item mobile-menu-item" href="/resume.pdf" target="_blank"><h2 className='subtitle2'>Resume <Icon icon="radix-icons:open-in-new-window" style={{ fontSize: '13px' }} /></h2></a>
+                <Link tabIndex={2} className="menu-item mobile-menu-item" activeClass="active-menu-item" to='Intro' spy={true} smooth={true} duration={500}><h2 className='subtitle2'>Intro</h2></Link>
+                <Link tabIndex={3} className="menu-item mobile-menu-item" activeClass="active-menu-item" to='Projects' spy={true} smooth={true} duration={500}><h2 className='subtitle2'>Projects</h2></Link>
+                <Link tabIndex={4} className="menu-item mobile-menu-item" activeClass="active-menu-item" to='Bio' spy={true} smooth={true} duration={500}><h2 className='subtitle2'>About</h2></Link>
+                <a className="menu-item mobile-menu-item" href="/resume.pdf" target="_blank"><h2 className='subtitle2'>Resume <Icon icon="radix-icons:open-in-new-window" style={{ fontSize: '13px' }} /></h2></a>
             </div>
         </>
     );
