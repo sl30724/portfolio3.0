@@ -33,9 +33,8 @@ function App() {
             </div>
             <div className="status">
               <ul>
-                <li><p className='small'><span className='title'>Currently:</span> Seeking exciting full-time positions.</p></li>
-                <li><p className='small'><span className='title'>Recently:</span> Graduated with an MS in Creative Tech & Design from CU Boulder.</p></li>
-                <li><p className='small'><span className='title'>Always:</span> Working on side projects and learning new things.</p></li>
+                <li><p className='small'><span className='title'>Currently:</span> UX Researcher & Designer at DUB lab, University of Washington.</p></li>
+                <li><p className='small'><span className='title'>Always:</span> Building my portfolio</p></li>
               </ul>
             </div>
             <div className="socialmedia">
