@@ -172,8 +172,7 @@ function ProjectCard(props: Project) {
           :
           <p className="caption">{props.description}</p>}
         {props.type === "dev" &&
-          <p className="caption project-tools"><em><ul>{toolItems}</ul>
-          </em></p>
+          <ul className='project-tools caption'>{toolItems}</ul>
         }
         {props.highlight && props.ready &&
           <a href={props.links[0].url} target="_blank" rel="noreferrer" className='button view-but-text'>View Details<Icon icon="radix-icons:open-in-new-window" className='view-icon' /></a>

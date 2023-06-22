@@ -1,10 +1,8 @@
 import { Link } from "react-scroll";
 import { Icon } from '@iconify-icon/react';
 import './App.css';
-import { Canvas } from '@react-three/fiber';
 import ProjectGallery from './ProjectGallery';
 import Bio from './Bio';
-import Scene from './Scene';
 import Nav from './Nav';
 
 function App() {
@@ -15,27 +13,12 @@ function App() {
 
       <main id='page-wrap'>
         <section className="Content" id="Intro">
-          <div id="scene-container">
-            <Canvas shadows orthographic camera={{ position: [5, 3, 10], zoom: 50 }} gl={{ preserveDrawingBuffer: true }} >
-              <color attach="background" args={["#FFFBFF"]} />
-              <ambientLight intensity={0.6} />
-              <directionalLight castShadow position={[2.5, 12, 12]} intensity={4} />
-              <Scene />
-            </Canvas>
-          </div>
           <div className="Intro-header">
             <div className="name">
               <h1>Hi, I'm Sandy</h1>
-              <p className='subtitle profession'>Product Designer, UX/UI Developer</p>
               <p>
-                I design and build joyful digital experiences that tell meaningful stories, striking the perfect balance between accessibility and aesthetics.
+              As a designer and a moonlighting developer, I’m passionate about crafting experiences that are fun, human-centered, and meaningful.
               </p>
-            </div>
-            <div className="status">
-              <ul>
-                <li><p className='small'><span className='title'>Currently:</span> UX Researcher & Designer at DUB lab, University of Washington.</p></li>
-                <li><p className='small'><span className='title'>Always:</span> Building my portfolio</p></li>
-              </ul>
             </div>
             <div className="socialmedia">
               <a href="https://www.linkedin.com/in/meihsuan-lee/" target="_blank" rel="noopener noreferrer" title='LinkedIn Profile'><Icon icon="ri:linkedin-fill" style={{ fontSize: '26px' }} className='social-icon' label='LinkedIn icon' /></a>
