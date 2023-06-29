@@ -145,7 +145,7 @@ a:hover {
 }
 
 .header {
-  width: 80vw;
+  width: 90vw;
   height: 70px;
   display: flex;
   flex-direction: row;
@@ -168,7 +168,7 @@ a:hover {
 }
 
 .header-hide {
-  width: 80vw;
+  width: 90vw;
   height: 70px;
   display: flex;
   flex-direction: row;
@@ -195,12 +195,12 @@ a:hover {
   cursor: pointer;
 }
 
-.menu {
+#nav {
   display: flex;
   width: 100vw;
   flex-direction: row;
-  gap: 50px;
-  justify-content: flex-end;
+  gap: 6%;
+  justify-content: center;
   align-items: center;
 }
 
@@ -551,10 +551,10 @@ footer {
   .hamburger {
     display: flex;
   }
-
-  .menu {
+/* 
+  #nav {
     display: none;
-  }
+  } */
 
   .menuLayer-shown {
     display: flex;

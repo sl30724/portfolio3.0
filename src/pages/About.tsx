@@ -1,7 +1,7 @@
 import { Icon } from "@iconify-icon/react";
 
 
-export default function Bio() {
+export default function About() {
 
     return (
         <>
