@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { Icon } from '@iconify-icon/react';
 
-
 interface Link {
   site: string;
   url: string;

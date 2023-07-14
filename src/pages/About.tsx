@@ -1,42 +1,86 @@
 import { Icon } from "@iconify-icon/react";
 
-
 export default function About() {
 
     return (
-        <>
-            <div className='bio'>
-                <h2>Hi Again, Nice to Meet You!
-                </h2>
-                <div className='bio-header'>
-                    <div className='bio-content'>
-                        <p className="small">
-                            I'm Sandy, a recent <span className='bio-highlights'>MS graduate in Creative Tech & Design</span> from CU Boulder, where I studied HCI and creative tech.
-
-                            I think of myself as a creative problem solver and lifelong learner before designer & developer. I believe understanding "why" is the most important step in any project. I'm always curious about how things work and how to make them better. I'm a <span className='bio-highlights'>big picture thinker</span> who loves to <span className='bio-highlights'>connect the dots</span> and <span className='bio-highlights'>bridge the gap</span> between people and technology.
-                        </p>
-                        <p className="small">
-                            I'm passionate about creating <span className='bio-highlights'>inclusive experiences</span> that are fun, engaging, and delightful. <span className='bio-highlights'>Data visualization</span>, <span className='bio-highlights'>3D</span>, and <span className='bio-highlights'>customer-facing SaaS tools</span> are some of my favorite things to work on.
-                        </p>
-                        <p className="small">
-                            I'm also a <span className='bio-highlights'>travel enthusiast</span> (15 countries and counting), <span className='bio-highlights'>cat worshipper</span>, <span className='bio-highlights'>tea drinker</span>, and <span className='bio-highlights'>fitness lover</span>. Music and movies are essential. I explore many genres, but currently, I'm diving back in <span className='bio-highlights'>City Pop</span> as warmer days approach.
-                        </p>
-                        <p className="small">
-                            <em><strong>Let's connect!
-                                <br />
-                                Drop me an email at <a href="mailto:work@sandylee.site"><span className='bio-email'>work@sandylee.site</span></a>
-                            </strong></em>
-                        </p>
-
-                    </div>
-                    <img src="/pics/girl-working.gif" alt="girl working animation" className='bio-gif' />
+        <div className="content">
+            <div className='headline'>
+                <h1 className='gradientText'>I'm Sandy.</h1>
+            </div>
+            <div className="bio">
+                <div className="bioPic">
+                    <img src="/pics/Profile.png" alt="profile picture" />
                 </div>
-                <div className="bio-socialmedia">
-                    <a href="https://www.linkedin.com/in/meihsuan-lee/" target="_blank" rel="noopener noreferrer" title='LinkedIn Profile'><Icon icon="ri:linkedin-fill" style={{ fontSize: '26px' }} className='social-icon' label='LinkedIn icon' /></a>
-                    <a href="https://www.behance.net/sandylee17" target="_blank" rel="noopener noreferrer" title='Behance Profile'><Icon icon="ion:logo-behance" style={{ fontSize: '26px' }} className='social-icon' label='Behance icon' /></a>
-                    <a href="mailto:sl30724@google.com" title="Send an email"><Icon icon="material-symbols:mail" style={{ fontSize: '26px' }} className='social-icon' label='Mail icon' /></a>
+                <div className="bioText">
+                    <h3 className="gradientText">I’m a product designer.</h3>
+                    <p>Over the past 3+ years, I’ve worked in various areas of digital design, including front-end development, marketing, web and app UI/UX, and UX research. I’m honored to have worn many hats.
+                        <br />
+                        <br />
+                        After receiving my MS in Human-Computer Interaction, I’ve been helping <a href='https://dub.washington.edu/' target='blank' rel='noreferrer'>the DUB lab at University of Washington</a> envision the cross-cutting design approaches to facilitate adolescent well-being and identity exploration on social media as a UX Researcher & Designer.
+                        <br />
+                        <br />
+                        Interested in learning more about my experiences?
+                        <br />
+                        <a href="/resume.pdf" target="_blank">Read my resume here <Icon icon="radix-icons:open-in-new-window" style={{ fontSize: '13px' }} /></a>
+                    </p>
                 </div>
             </div>
-        </>
+            <div className="innerContent">
+                <div className="headline">
+                    <h3 className="gradientText">My Definition of Good designs</h3>
+                    <p>Designs make the world more beautiful, but good designs go beyond that.</p>
+                </div>
+                <div className="grid" id="designGrid">
+                    <div className="gridItem">
+                        <div className="itemTitle">
+                            <h5 className="gradientText">01</h5>
+                            <h4>Find The Right Problem</h4>
+                        </div>
+                        <p>Research and design thinking provide me with new insights about the problem at hand. With these insights, a redefinition/reframe of the problem is often necessary. This ensures the team is not wasting time designing for the wrong problem.</p>
+                    </div>
+                    <div className="gridItem">
+                        <div className="itemTitle">
+                            <h5 className="gradientText">02</h5>
+                            <h4>Solve The Problem Right</h4>
+                        </div>
+                        <p>Defining clear goals while considering feasibility and constraints associated with the project is crucial for an effective design process. From there, ideation and concept development can sprout with boundless creativity but with a clear direction.</p>
+                    </div>
+                    <div className="gridItem">
+                        <div className="itemTitle">
+                            <h5 className="gradientText">03</h5>
+                            <h4>Execute & Collaborate</h4>
+                        </div>
+                        <p>I create user maps, wireframes, interaction designs, and prototypes to validate ideas, ensure usability, and yield aesthetics; but good designs should always encourage feedback in a collaborative design process that include various stakeholders.</p>
+                    </div>
+                    <div className="gridItem">
+                        <div className="itemTitle">
+                            <h5 className="gradientText">04</h5>
+                            <h4>Keep Experimenting</h4>
+                        </div>
+                        <p>Good designs constantly change for good reasons. By evaluating the results with user tests, feedback, market insights, and data; I make necessary adjustments to current designs and collect insights for future design iterations.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="innerContent">
+                <div className="headline">
+                    <h3 className="gradientText">What I Do Outside of Work</h3>
+                    <p>I'm a travel enthusiast, cat worshipper, tea drinker, and fitness lover. Music and movies are essential to my life. I explore many music genres, from 70s Jazz to Reggaeton. Currently, I'm diving back in 80s City Pop as warmer days approach.</p>
+                </div>
+                <div className="grid" id="interestGrid">
+                    <div className="interestPic">
+                        <img src="/pics/travel.png" alt="Tokyo" />
+                    </div>
+                    <div className="interestPic">
+                        <img src="/pics/jungle.png" alt="Panama" />
+                    </div>
+                    <div className="interestPic">
+                        <img src="/pics/desert.png" alt="Utah" />
+                    </div>
+                    <div className="interestPic">
+                        <img src="/pics/skiing.png" alt="Colorado" />
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 }

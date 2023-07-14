@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import { Icon } from '@iconify-icon/react';
 import './App.css';
 import Layout from './pages/Layout';
-import Work from './pages/ProjectGallery';
+import Work from './pages/Work';
 import About from './pages/About';
 import Fun from './pages/Fun';
-import Nav from './Nav';
+import Footer from './components/Footer';
+import Nav from './components/Nav';
 
 function App() {
 
@@ -21,9 +21,7 @@ function App() {
         </Routes>
       </main>
       <footer>
-        <div className='footer-content'>
-          <p className='caption'>© 2023 Sandy Lee | Built with React, ThreeJS, 🧋, 🐈, 💜</p>
-        </div>
+        <Footer />
       </footer>
     </div>
   );
