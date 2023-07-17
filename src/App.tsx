@@ -6,6 +6,7 @@ import About from './pages/About';
 import Fun from './pages/Fun';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
+import Sbs from './pages/Sbs';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Route index element={<Work />} />
             <Route path='/about' element={<About />} />
             <Route path='/fun' element={<Fun />} />
+            <Route path='/work/sbs' element={<Sbs />} />
         </Routes>
       </main>
       <footer>

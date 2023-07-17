@@ -1,5 +1,3 @@
-import React, { useRef, useState } from 'react';
-import { Icon } from '@iconify-icon/react';
 import ProjectCard from '../components/ProjectCard';
 
 export default function Work() {

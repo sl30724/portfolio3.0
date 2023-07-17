@@ -20,7 +20,7 @@ export default function ProjectCard(props: Project) {
                         <h4>{props.name}</h4>
                         {props.description && <p>{props.description}</p>}
                     </div>
-                    <div className='projectPic'>
+                    <div className='projectCover'>
                         <img src={props.pic} alt={props.name} />
                     </div>
                 </div>

@@ -110,10 +110,17 @@ h5 {
   --max: 1.5rem;
 }
 
-.subtitle, p, .small, .overline, a {
+.subtitle, p, .small, .overline, a, .caption {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: clamp(var(--min), var(--val), var(--max));
+}
+
+.caption {
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: var(--on-surface);
 }
 
 .subtitle {
