@@ -11,7 +11,7 @@ export default function Craigslist() {
                 <div className='projectIntro'>
                     <div className='innerProjectIntro'>
                         <p className='overline'>timeline</p>
-                        <p className='small'>2021 Sep – 2021 Nov</p>
+                        <p className='small'>2022 Sep – 2022 Nov</p>
                     </div>
                     <div className='innerProjectIntro'>
                         <p className='overline'>team</p>
@@ -32,130 +32,137 @@ export default function Craigslist() {
             </div>
             <div className='projectImg'>
                 <Zoom>
-                    <img src="/pics/voteally/Voteally_cover.png" alt="Voteally mobile screens" />
+                    <img src="/pics/cr/Cr_cover.png" alt="Voteally mobile screens" />
                 </Zoom>
-                <p className='caption'>Voteally mobile screens</p>
             </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Overview</h4>
-                <p>This personal, semester-long project was made for the course User Experience Design I. Each student had to observe a pain point in our lives and design a feasible product that would solve the problem. The local election was just over, and I remembered how shocked I was when I learned that my friends casted their votes without knowing what’s on the bullet.
-                    <br />
-                    <br />
-                    After speaking with them, I realized this is not because they don’t think their votes are important, but because they didn’t have time and the energy to learn about the issues and the candidates. This led me to the idea of VoteAlly, a tool designed to streamline the voting preparation process for people who wish to be more politically-involved.</p>
+                <p>This is a personal project to redesign the Craigslist mobile app. I was drawn to the idea of redesigning Craigslist because I wanted to challenge myself on simplifying complexities while addressing users’ concerns and emotions at the same time.</p>
             </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Assumptions</h4>
-                <div className='projectImg'>
-                    <Zoom>
-                        <img src="/pics/voteally/Voteally_assumptions.png" alt="Voteally assumptions" />
-                    </Zoom>
+                <div className='jtbd'>
+                    <h2>"</h2>
+                    <p className='subtitle'>Craigslist Is Sketchy. But It Can Change.</p>
+                    <h2>"</h2>
                 </div>
+                <p>With all the other options to trade second-hand goods and services on the market, people don’t trade on Craigslist anymore because it feels unsafe and unreliable.
+                    How can we make Craigslist safe & modern again, while keeping the same simplicity that people like and associate Craigslist with?</p>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>Research Plan</h4>
+                <h4 className='gradientText'>User Persona</h4>
                 <div className='projectImg'>
                     <Zoom>
-                        <img src="/pics/voteally/Voteally_researchPlan.png" alt="Voteally research plan" />
+                        <img src="/pics/cr/Cr_userPersona.png" alt="Craigslist User Persona" />
                     </Zoom>
+                    <p className='caption'>Craigslist's user persona</p>
                 </div>
-                <p>To help me validate my assumptions, I decided to conduct user interviews with 5 participants. I laid out the research plan above to help me identify the research goals. This research plan helped me refocus on the areas I wanted to explore more during the user interviews whenever the conversation seems to lose the focus.</p>
+                <p>To understand Craigslist users better, I created a persona to understand their motivations, concerns, feelings, and goals when they’re using Craigslist to gain actionable insights.</p>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>Affinity Mapping</h4>
+                <h4 className='gradientText'>User Journey</h4>
                 <div className='projectImg'>
                     <Zoom>
-                        <img src="/pics/voteally/Voteally_affinity.png" alt="Voteally affinity map" />
+                        <img src="/pics/cr/Cr_userMap.png" alt="Craigslist user journey map" />
                     </Zoom>
+                    <p className='caption'>Craigslist's original user journey map</p>
                 </div>
-                <p>After the user interviews, I created the affinity map above to analyze the common things all respondents mentioned during their interviews. This map helped me identify the pain points in the current user journey, how Voteally can help them resolve these problems, and what features it should have.</p>
+                <p>I decided an emotional journey map would be suitable for this project since it’s closely related to the user’s feelings. This map helped me understand where and when the frustration happens throughout the existing Craigslist experience.</p>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>Research Findings</h4>
+                <h4 className='gradientText'>Job to Be Done</h4>
                 <div className='projectImg'>
                     <Zoom>
-                        <img src="/pics/voteally/Voteally_insights.png" alt="Voteally research insights" />
+                        <img src="/pics/cr/Cr_jtbd.png" alt="Craigslist job to be done" />
                     </Zoom>
                 </div>
-                <p>From the affinity mapping, I was able to summarize the research findings in these four points and defined the must-have functions on Voteally to address the users’ goals and needs in order to achieve the project goal of streamlining the voting preparation process.</p>
+                <p>Based on the user persona and emotional journey map, I defined the job to be done to identify the goal of this project. It also helps me plan out what features to improve or implement, and what purpose they serve.</p>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>User Mapping</h4>
+                <h4 className='gradientText'>Improved User Journey</h4>
                 <div className='projectImg'>
-
                     <Zoom>
-                        <img src="/pics/voteally/Voteally_userMap.png" alt="Voteally user map" />
+                        <img src="/pics/cr/Cr_improvedMap.png" alt="Craigslist improved user journey map" />
                     </Zoom>
-                    <p className='caption'>Voteally user flow</p>
+                    <p className='caption'>Craigslist improved user journey map</p>
                 </div>
-                <p>Making a user flow assisted three things in my design process: The screens I need to make to reach MVP, a frictionless user journey, and a tool to discover new details for the features.
+                <p>I made an improved user journey map to help me envision what an ideal emotional journey would look like with the new and improved features by marking down when and how these three features would improve the original journey map.
                 </p>
             </div>
-
+            <div className='projectContent'>
+                <h4 className='gradientText'>Defining features</h4>
+                <div className='projectImg'>
+                    <Zoom>
+                        <img src="/pics/cr/Cr_featureDetails.png" alt="Craigslist feature details" />
+                    </Zoom>
+                    <p className='caption'>Craigslist feature details</p>
+                </div>
+                <p>I used mental notes to look back on and connect each feature to psychology aspects. This helped me define the details of each feature I intend on designing. I chose three mental notes for each feature, and put down the design strategies I can use to achieve them.
+                </p>
+            </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Design System</h4>
                 <div className='projectImg'>
                     <Zoom>
-                        <img src="/pics/voteally/Voteally_designSystem.png" alt="Voteally Design System" />
+                        <img src="/pics/cr/Cr_featureDetails.png" alt="Craigslist feature details" />
                     </Zoom>
-                    <p className='caption'>Voteally logo and color system</p>
+                    <p className='caption'>Craigslist improved design system</p>
                 </div>
-                <p>I used the color purple to represent being politically neutral and to render the feeling of trust, while the yellow symbolizes friendliness. For typography, I chose two easy-to-read Sans Serif fonts below because I expect a high percentage of literal content.
+                <p>Craigslist has a familiar simplicity people already associate with. Without drastically changing the design system, users now will have a better experience exploring the world of Craigslist with an expanded font set and color system.
                 </p>
-                <div className='projectImg'>
-                    <Zoom>
-                        <img src="/pics/voteally/Voteally_typography.png" alt="Voteally typography" />
-                    </Zoom>
-                    <p className='caption'>Voteally typography</p>
-                </div>
             </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Features</h4>
                 <div className='feature'>
-                    <div className='projectImg'>
-                        <Zoom>
-                            <img src="/pics/voteally/Voteally_home.png" alt="Voteally Home" />
-                        </Zoom>
-                        <p className='caption'>Voteally Home</p>
-                    </div>
+                        <div className='projectImg'>
+                            <Zoom>
+                                <img src="/pics/cr/Cr_homeOldNew.png" alt="Craigslist old home vs new home" />
+                            </Zoom>
+                            <p className='caption'>Craigslist Old Home vs New Home</p>
+                        </div>
                     <div className='featureContent'>
                         <h5 className='gradientText'>Home</h5>
-                        <p>Integrating the user findings, the Home screen collects daily political news from different news sources. Users can use the top search bar to search for a specific topic, party, or candidate. They can also browse through the news organized by three different election levels: state/local, congressional, and presidential.</p>
+                        <p>After two design iterations, I eventually decided to go with the simplest one. I highlighted the search bar, organized subcategories with better color hierarchy, and added a new “Popular in Your Area” section to provide social proof and just the right amount of fun.</p>
                     </div>
                 </div>
                 <div className='feature' id='reverse'>
                     <div className='projectImg'>
                         <Zoom>
-                            <img src="/pics/voteally/Voteally_candidates.png" alt="Voteally Candidates" />
+                            <img src="/pics/cr/Cr_searchOld.png" alt="Craigslist original search" />
                         </Zoom>
-                        <p className='caption'>Voteally Candidates</p>
+                        <Zoom>
+                            <img src="/pics/cr/Cr_searchNew.png" alt="Craigslist new search" />
+                        </Zoom>
+                        <p className='caption'>Craigslist Old Search vs New Search</p>
                     </div>
                     <div className='featureContent'>
-                        <h5 className='gradientText'>Candidates</h5>
-                        <p>The Candidates screen shows users all the candidates that are running for the upcoming elections, categorized by different election scales. Once user search for a specific topic, they can also see the candidates’ position on that issue. The filter function allows users to only see candidates that are “friendly” or “unfriendly” on the issue.</p>
+                        <h5 className='gradientText'>Search</h5>
+                        <p>The original search function has a messy task flow and a confusing information structure. I removed redundant tasks and added a fixed back button and search bar, also applied new design system to improve hierarchy.</p>
                     </div>
                 </div>
                 <div className='feature'>
                     <div className='projectImg'>
                         <Zoom>
-                            <img src="/pics/voteally/Voteally_profile.png" alt="Voteally Profile" />
+                            <img src="/pics/cr/Cr_safetyMode.png" alt="Craigslist safety mode" />
                         </Zoom>
-                        <p className='caption'>Voteally Profile</p>
+                        <p className='caption'>Craigslist Safety Mode</p>
                     </div>
                     <div className='featureContent'>
-                        <h5 className='gradientText'>Profile</h5>
-                        <p>The profile page provides users a quick way to access to the information they’re interested in, including important information about the upcoming election, the candidates they’ve marked, and the discussions they’ve participated or reacted to.</p>
+                        <h5 className='gradientText'>Safety Mode</h5>
+                        <p>To improve users' feeling of safety, I decided to design an always-accessible safety mode icon that can be turn on and off. If turned on, the app will apply settings that improve members’ ability to be in control of their safety.</p>
                     </div>
                 </div>
                 <div className='feature' id='reverse'>
                     <div className='projectImg'>
                         <Zoom>
-                            <img src="/pics/voteally/Voteally_community.png" alt="Voteally Community" />
+                            <img src="/pics/cr/Cr_message.png" alt="Craigslist in-app messages" />
                         </Zoom>
-                        <p className='caption'>Voteally Community</p>
+                        <p className='caption'>Craigslist In-App Messages</p>
                     </div>
                     <div className='featureContent'>
-                        <h5 className='gradientText'>Community</h5>
-                        <p>Last but not least, the community forum feature was added to integrate the research findings. Similarly to other features, users can find and join discussions that are categorized by different election scales.</p>
+                        <h5 className='gradientText'>Craigslist In-App Messages</h5>
+                        <p>A well-organized messaging system providing social proof and feedbacks.
+It helps members learn more about whom they’re connecting with, stay on top of the conversations, and ease anxiety when it comes to reaching out to a stranger.</p>
                     </div>
                 </div>
             </div>
@@ -163,33 +170,30 @@ export default function Craigslist() {
                 <h4 className='gradientText'>Interactive Prototype</h4>
                 <div className='projectImg'>
                     <Zoom>
-                        <img src="/pics/voteally/Voteally_prototype.gif" alt="Voteally prototype" />
+                        <img src="/pics/cr/Cr_prototype.gif" alt="Craigslist prototype" />
                     </Zoom>
-                    <p className='caption'>Voteally prototype</p>
+                    <p className='caption'>Craigslist prototype</p>
                 </div>
-                <p>To summarize, 20+ screens were created for this project:
+                <p>To summarize, 14+ screens and 4+ features were redesigned and made for this project:
                     <br />
                     <br />
                     <ul>
-                        <li>A candidates page where people can search for issues and filter candidates’ positions on issues that they care about.</li>
-                        <li>Based on my research findings, I decided to include a community page where users can start and join discussions about the upcoming elections.</li>
-                        <li>Since all interviewees mentioned they source information from different news media, I created a home page that collects recent political news from various media.</li>
+                        <li>Home page with clearer information hierarchy.</li>
+                        <li>Search function with fewer tasks and a clearer user flow.</li>
+                        <li>Safety mode aimed to improve users' feelings of safety.</li>
+                        <li>In-app message system that provides social proof and more information on the members users are interacting with.</li>
                     </ul>
                 </p>
             </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Takeaways</h4>
                 <div className='bulletPoints'>
-                    <p className='subtitle gradientText'>Information Architecture: Combining Organization Systems</p>
-                    <p>This project involves presenting different sets of information, which makes developing a clear information architecture a top priority. I learnt that combine a searching system (search bar w/ filters and result suggestions) and a topic schemes (tabs) is a great way to help users find the content they need.</p>
+                    <p className='subtitle gradientText'>Information Architecture: Less is more</p>
+                    <p>Throughout my design iterations, the user feedback on the first few designs was still not satisfying. At the end, I learnt that less in more when designing for complex information architecture. By applying a great design system, typography and colors alone can help differentiate different sets of information.</p>
                 </div>
                 <div className='bulletPoints'>
-                    <p className='subtitle gradientText'>User Retention: Implementing habit-forming feature</p>
-                    <p>The home page serves as a news source for users that help them cast their votes for their allies, but it also works as a retention strategy. Since the intended users care about politics and seek political news on multiple sources, this feature has the habit-forming effect that could make this app become the go-to tool for political news to users.</p>
-                </div>
-                <div className='bulletPoints'>
-                    <p className='subtitle gradientText'>Social Element: Multiple benefits</p>
-                    <p>Not only does the discussion page come from the user research findings, it also serves the “social proof” and “entertainment” purposes. These are both trigger elements for users to engage on this app.</p>
+                    <p className='subtitle gradientText'>User Retention: The right amount of fun</p>
+                    <p>From initial user feedback, I learn that even when it looks good, it's not "fun" for users. Therefore, I implemented two features that provide some game elements in the app: the profile badges and the popular in your area section.</p>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ export default function Voteally() {
                 <div className='projectIntro'>
                     <div className='innerProjectIntro'>
                         <p className='overline'>timeline</p>
-                        <p className='small'>2021 Mar – 2021 May</p>
+                        <p className='small'>2022 Mar – 2022 May</p>
                     </div>
                     <div className='innerProjectIntro'>
                         <p className='overline'>team</p>
@@ -34,7 +34,6 @@ export default function Voteally() {
                 <Zoom>
                     <img src="/pics/voteally/Voteally_cover.png" alt="Voteally mobile screens" />
                 </Zoom>
-                <p className='caption'>Voteally mobile screens</p>
             </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Overview</h4>
