@@ -11,9 +11,10 @@ export default function Work() {
                 <ProjectCard
                     id='project1'
                     highlight={false}
-                    type='UX Research / Accessibile Web Design'
+                    type='UX Research / Accessibility'
                     name='Street Business School'
                     pic='/pics/Sbs2.png'
+                    link='/work/sbs'
                     background='blue' />
                 <ProjectCard
                     id='project2'
@@ -21,6 +22,7 @@ export default function Work() {
                     type='Product Design / Mobile App'
                     name='Empowering Voters with VoteAlly'
                     pic='/pics/Voteally.png'
+                    link='/work/voteally'
                     background='pink' />
                 <ProjectCard
                     id='project3'
@@ -28,6 +30,7 @@ export default function Work() {
                     type='Product Design / Mobile App'
                     name='Designing Safety and Trust on Craigslist'
                     pic='/pics/Craigslist.png'
+                    link='/work/craigslist'
                     background='grey' />
             </div>
             <div className='inProcess'>

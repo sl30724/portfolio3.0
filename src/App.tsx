@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import './App.css';
+import './styles/App.css';
 import Layout from './pages/Layout';
 import Work from './pages/Work';
 import About from './pages/About';
@@ -7,6 +7,8 @@ import Fun from './pages/Fun';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Sbs from './pages/Sbs';
+import Voteally from './pages/Voteally';
+import Craigslist from './pages/Craigslist';
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/fun' element={<Fun />} />
             <Route path='/work/sbs' element={<Sbs />} />
+            <Route path='/work/voteally' element={<Voteally />} />
+            <Route path='/work/craigslist' element={<Craigslist />} />
         </Routes>
       </main>
       <footer>

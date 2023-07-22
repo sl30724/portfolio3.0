@@ -9,7 +9,7 @@ export default function About() {
             </div>
             <div className="bio">
                 <div className="bioPic">
-                    <img src="/pics/Profile.png" alt="profile picture" />
+                    <img src="/pics/Profile.png" alt="Sandy Lee" />
                 </div>
                 <div className="bioText">
                     <h3 className="gradientText">I’m a product designer.</h3>
