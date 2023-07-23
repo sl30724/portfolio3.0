@@ -128,7 +128,7 @@ export default function Craigslist() {
                 <div className='feature' id='reverse'>
                     <div className='projectImg'>
                         <Zoom>
-                            <img src="/pics/cr/Cr_searchOld.png" alt="Craigslist original search" />
+                            <img src="/pics/cr/Cr_search.png" alt="Craigslist original search" />
                         </Zoom>
                         <Zoom>
                             <img src="/pics/cr/Cr_searchNew.png" alt="Craigslist new search" />
