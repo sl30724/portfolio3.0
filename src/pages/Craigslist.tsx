@@ -104,7 +104,7 @@ export default function Craigslist() {
                 <h4 className='gradientText'>Design System</h4>
                 <div className='projectImg'>
                     <Zoom>
-                        <img src="/pics/cr/Cr_featureDetails.png" alt="Craigslist feature details" />
+                        <img src="/pics/cr/Cr_designSystem.png" alt="Craigslist improved design system" />
                     </Zoom>
                     <p className='caption'>Craigslist improved design system</p>
                 </div>
