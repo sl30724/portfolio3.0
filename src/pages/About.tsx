@@ -28,7 +28,7 @@ export default function About() {
             <div className="innerContent">
                 <div className="headline">
                     <h3 className="gradientText">My Definition of Good designs</h3>
-                    <p>Designs make the world more beautiful, but good designs go beyond that.</p>
+                    <p>Designs make the world more beautiful, but good designs go beyond.</p>
                 </div>
                 <div className="grid" id="designGrid">
                     <div className="gridItem">

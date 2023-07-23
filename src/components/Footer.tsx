@@ -15,7 +15,7 @@ export default function Footer() {
                     <div className='footerNavCol'>
                         <h5 className='gradientText'>Contact</h5>
                         <ul>
-                            <li><a className='subtitle' href='https://www.behance.net/sandylee17' target='_blank' rel='noreferrer'>LinkedIn</a></li>
+                            <li><a className='subtitle' href='https://www.linkedin.com/in/meihsuan-lee/' target='_blank' rel='noreferrer'>LinkedIn</a></li>
                             <li><a className='subtitle' href='mailto:work@sandylee.site?bcc=sl30724@gmail.com' target='_blank' rel='noreferrer'>Email</a></li>
                         </ul>
                     </div>

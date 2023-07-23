@@ -14,14 +14,14 @@ export default function Fun() {
                     description='A delightful virtual exploration through the beautiful Taipei City with mesmerizing audios, visuals, and scrolling effects.'
                     pic='/pics/Soundstaipei.gif'
                     link='https://sounds-of-taipei.sandylee.site/'
-                    background='white' />
+                    background='primary-container' />
                 <ProjectCard
                     id='fun2'
                     name='The Museum of Rudeness'
                     description='An interactive web experience that showcases interesting cultural nuances of rude behaviors from around the world with 3D exhibits.'
                     pic='/pics/Museumrudeness.gif'
                     link='https://museum-of-rudeness.sandylee.site/'
-                    background='white' />
+                    background='primary-container' />
             </div>
         </div>
     )

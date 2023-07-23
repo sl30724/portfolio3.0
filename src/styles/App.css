@@ -200,6 +200,13 @@ footer {
 }
 
 .inProcess {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.inProcess .projectCard {
   width: 100%;
 }
 
@@ -213,7 +220,7 @@ text-align: left;
 }
 
 #funProjects .projectTitle h4 {
-  color: var(--primary);
+  color: var(--on-primary-container);
 }
 
 #fun1, #fun2 {
