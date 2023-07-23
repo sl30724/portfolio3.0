@@ -93,7 +93,7 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    gap: none;
+    gap: 8px;
 }
 
 #reverse {
@@ -101,16 +101,17 @@
 }
 
 .feature .projectImg {
-    flex: 1 0 calc(100%/3*2);
-    min-width: 500px;
+    flex: 1 1 calc(100%/3*2 - 8px);
+    min-width: 330px;
     gap: 0;
 }
 
 .feature .featureContent {
     display: flex;
     flex-direction: column;
-    flex: 1 0 calc(100%/3*1);
+    flex: 1 0 calc(100%/3*1 - 8px);
     gap: 16px;
+    min-width: 270px;
 }
 
 .bulletPoints {
