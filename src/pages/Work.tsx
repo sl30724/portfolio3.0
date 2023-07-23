@@ -42,7 +42,7 @@ export default function Work() {
                     <ProjectCard
                         id='project4'
                         highlight={true}
-                        type='Product Design / Mobile App'
+                        type='UX Design / Mobile App'
                         name='Facilitating Adolescent Self-Disclosure on WhoAmI'
                         pic='/pics/Whoami.png'
                         link='/work/whoami'
