@@ -9,6 +9,7 @@ import Nav from './components/Nav';
 import Sbs from './pages/Sbs';
 import Voteally from './pages/Voteally';
 import Craigslist from './pages/Craigslist';
+import Whoami from './pages/Whoami';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
             <Route path='/work/sbs' element={<Sbs />} />
             <Route path='/work/voteally' element={<Voteally />} />
             <Route path='/work/craigslist' element={<Craigslist />} />
+            <Route path='/work/whoami' element={<Whoami />} />
         </Routes>
       </main>
       <footer>

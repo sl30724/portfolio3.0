@@ -45,6 +45,7 @@ export default function Work() {
                         type='Product Design / Mobile App'
                         name='Facilitating Adolescent Self-Disclosure on WhoAmI'
                         pic='/pics/Whoami.png'
+                        link='/work/whoami'
                         background='orange' />
                 </div>
             </div>
