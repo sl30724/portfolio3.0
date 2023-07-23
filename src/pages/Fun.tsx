@@ -20,6 +20,7 @@ export default function Fun() {
                     name='The Museum of Rudeness'
                     description='An interactive web experience that showcases interesting cultural nuances of rude behaviors from around the world with 3D exhibits.'
                     pic='/pics/Museumrudeness.gif'
+                    link='https://museum-of-rudeness.sandylee.site/'
                     background='white' />
             </div>
         </div>
