@@ -13,7 +13,7 @@ interface Project {
 export default function ProjectCard(props: Project) {
     return (
         <div className={`projectCard ${props.background}`} id={`${props.id}`}>
-            <a href={props.link}>
+            <a href={props.link} target="bkank" rel='noreferrer'>
                 <div className='projectCardContent'>
                     <div className='projectTitle'>
                         {props.type && <p className='overline'>{props.type}</p>}
