@@ -25,6 +25,7 @@ export default function Whoami() {
                     <div className='innerProjectIntro'>
                         <p className='overline'>role</p>
                         <ul className='small'>
+                            <li>Product Design</li>
                             <li>UX Research</li>
                             <li>UX Design</li>
                             <li>Interaction Design</li>
@@ -40,10 +41,10 @@ export default function Whoami() {
             <div className='projectContent'>
                 <h4 className='gradientText'>Overview</h4>
                 <p>WhoAmi Today is a social media app designed to promote adolescent self-disclosure and wellbeing.
-                     Inspired by a research project at DUB lab, University of Washington, WhoAmi believes that being able to self-disclose instead of self-present is the key for adolescents to improve relationship quality between peers, allows for identity exploration and development, and improves well-being of adolescents.
-                <br/>
-                <br/>
-                    I joined WhoAmi Today as the second designer on the design team. We work closely with seven developeres and two project managers. My job includes making lofi and hifi wireframes, improving the user flow, and interaction design. We're aiming to launch the first version of Whoami by the end of August. Please come back then to check out more project details.
+                    Inspired by a research project at DUB lab, University of Washington, WhoAmi believes that being able to self-disclose instead of self-present is the key for adolescents to improve relationship quality between peers, allows for identity exploration and development, and improves well-being of adolescents.
+                    <br />
+                    <br />
+                    I joined WhoAmi Today as the second designer on the design team. I work closely with seven developeres and two product managers. My job includes establishing and expanding desgin systems, defining features based on research findings, making lofi and hifi wireframes, improving the user flow, and creating interaction design. We're aiming to launch the first version of Whoami by the end of August. Please come back then to check out more project details.
                 </p>
             </div>
         </div>
