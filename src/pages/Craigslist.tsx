@@ -112,28 +112,36 @@ export default function Craigslist() {
                 </p>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>Features</h4>
+                <h4 className='gradientText'>Old Design</h4>
+                <div className='projectImg'>
+                    <Zoom>
+                        <img src="/pics/cr/Cr_old.png" alt="Craigslist old design" />
+                    </Zoom>
+                    <p className='caption'>Craigslist old design</p>
+                </div>
+                <p>Before jumping into design iterations, I first took a look at the current Cragislist app to identify the screens to improved and the problems in them.
+                </p>
+            </div>
+            <div className='projectContent'>
+                <h4 className='gradientText'>Final Design</h4>
                 <div className='feature'>
                         <div className='projectImg'>
                             <Zoom>
-                                <img src="/pics/cr/Cr_homeOldNew.png" alt="Craigslist old home vs new home" />
+                                <img src="/pics/cr/Cr_home.png" alt="Craigslist new home screen" />
                             </Zoom>
-                            <p className='caption'>Craigslist Old Home vs New Home</p>
+                            <p className='caption'>Craigslist New Home</p>
                         </div>
                     <div className='featureContent'>
                         <h5 className='gradientText'>Home</h5>
-                        <p>After two design iterations, I eventually decided to go with the simplest one. I highlighted the search bar, organized subcategories with better color hierarchy, and added a new “Popular in Your Area” section to provide social proof and just the right amount of fun.</p>
+                        <p>Based on user feedbacks from the first two design iterations, I decided to go with the simplest one. I highlighted the search bar, organized subcategories with better color hierarchy, and added a new “Popular in Your Area” section to provide social proof and just the right amount of fun.</p>
                     </div>
                 </div>
                 <div className='feature' id='reverse'>
                     <div className='projectImg'>
                         <Zoom>
-                            <img src="/pics/cr/Cr_search.png" alt="Craigslist original search" />
-                        </Zoom>
-                        <Zoom>
                             <img src="/pics/cr/Cr_searchNew.png" alt="Craigslist new search" />
                         </Zoom>
-                        <p className='caption'>Craigslist Old Search vs New Search</p>
+                        <p className='caption'>Craigslist New Search</p>
                     </div>
                     <div className='featureContent'>
                         <h5 className='gradientText'>Search</h5>
