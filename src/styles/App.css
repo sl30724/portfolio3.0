@@ -57,7 +57,7 @@
 }
 
 .navLink:hover {
-  color: var(--primary-active);
+  color: var(--on-background);
   cursor: pointer;
 }
 
@@ -110,6 +110,10 @@ footer {
   color: var(--on-surface);
   text-decoration: none;
 }
+.footerNavCol ul li a:hover {
+  color: var(--on-background);
+  text-decoration: none;
+}
 
 .content {
   display: flex;
@@ -142,6 +146,7 @@ footer {
   flex-direction: column;
   padding: 24px 24px 0px 24px;
   min-width: 360px;
+  color: var(--on-surface);
 }
 
 .projectCardContent {
@@ -163,6 +168,7 @@ footer {
 
 .projectCard:hover {
   cursor: pointer;
+  color: var(--on-background);
   filter: var(--hover);
   transform: scale(1.01);
 }

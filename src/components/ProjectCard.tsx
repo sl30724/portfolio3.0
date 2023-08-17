@@ -17,7 +17,7 @@ export default function ProjectCard(props: Project) {
                 <div className='projectCardContent'>
                     <div className='projectTitle'>
                         {props.type && <p className='overline'>{props.type}</p>}
-                        <h4>{props.name}</h4>
+                        <h5>{props.name}</h5>
                         {props.description && <p>{props.description}</p>}
                     </div>
                     <div className='projectCover'>

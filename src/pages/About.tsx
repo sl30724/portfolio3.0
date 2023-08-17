@@ -3,6 +3,9 @@ import { Icon } from "@iconify-icon/react";
 export default function About() {
 
     return (
+        <>
+        <div className="background">
+        </div>
         <div className="content">
             <div className='headline'>
                 <h1 className='gradientText'>I'm Sandy.</h1>
@@ -82,5 +85,6 @@ export default function About() {
                 </div>
             </div>
         </div>
+        </>
     );
 }

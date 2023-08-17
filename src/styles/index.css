@@ -13,6 +13,38 @@ body {
   color: var(--on-background);
 }
 
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+  background-image: var(--gradient-background);
+  background-size: 400%;
+  animation: bg-animation 5s infinite alternate;
+}
+
+.background::after{
+  content: "";
+  width: 100%;
+  height: 30%;
+  position:absolute;
+  top: 70%;
+  left: 0;
+  background: var(--opaque-background);
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
 :root {
   --background: #FDF8FD;
   --on-background: #1C1B1E;
@@ -31,6 +63,26 @@ body {
   --grey: #CBC0D3;
   --orange: #EFD3D7;
   --hover: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.20));
+  /* gradient background */
+  --gradient-background: linear-gradient(
+   to right,
+   var(--background),
+   var(--blue),
+   var(--pink),
+   var(--background));
+  --opaque-background: linear-gradient(
+    to bottom,
+    rgba(253, 248, 253, 0),
+    /* rgba(253, 248, 253, 0.2) 82%;
+    rgba(253, 248, 253, 0.3) 84%;
+    rgba(253, 248, 253, 0.4) 86%;
+    rgba(253, 248, 253, 0.5) 88%;
+    rgba(253, 248, 253, 0.6) 90%;
+    rgba(253, 248, 253, 0.7) 92%;
+    rgba(253, 248, 253, 0.8) 94%;
+    rgba(253, 248, 253, 0.9) 96%; */
+    rgba(253, 248, 253, 1)
+  )
 }
 
 .blue {

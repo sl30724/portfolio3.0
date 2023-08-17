@@ -2,6 +2,9 @@ import ProjectCard from '../components/ProjectCard';
 
 export default function Work() {
     return (
+        <>
+        <div className="background">
+        </div>
         <div className='content'>
             <div className='headline'>
                 <h1 className='gradientText'>Hi, I'm Sandy.</h1>
@@ -50,5 +53,6 @@ export default function Work() {
                 </div>
             </div>
         </div>
+        </>
     )
 }
