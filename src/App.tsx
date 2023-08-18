@@ -10,6 +10,7 @@ import Sbs from './pages/Sbs';
 import Voteally from './pages/Voteally';
 import Craigslist from './pages/Craigslist';
 import Whoami from './pages/Whoami';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <Nav />
       <main>
+        <ScrollToTop />
         <Routes>
             <Route path="/" element={<Layout />} />
             <Route index element={<Work />} />

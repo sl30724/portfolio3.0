@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 interface Project {
     id: string;
     highlight?: Boolean;
@@ -12,19 +14,25 @@ interface Project {
 
 export default function ProjectCard(props: Project) {
     return (
-        <div className={`projectCard ${props.background}`} id={`${props.id}`}>
-            <a href={props.link} target="bkank" rel='noreferrer'>
-                <div className='projectCardContent'>
-                    <div className='projectTitle'>
-                        {props.type && <p className='overline'>{props.type}</p>}
-                        <h5>{props.name}</h5>
-                        {props.description && <p>{props.description}</p>}
+        <div className={`projectCard`} id={`${props.id}`}>
+            <div className={`projectLink ${props.background}`}>
+                <a href={`${props.link}`}>
+                    <div className='projectCardContent'>
+                        <div className='projectCover'>
+                            <img src={props.pic} alt={props.name} />
+                        </div>
                     </div>
-                    <div className='projectCover'>
-                        <img src={props.pic} alt={props.name} />
-                    </div>
+                </a>
+            </div>
+            <div className='projectTitle'>
+                <div className='title'>
+                <h4 className="gradientText">{props.name}</h4>
+                {props.type && <p className='overline'>{props.type}</p>}
+                {/* <div className="divider"></div>  */}
                 </div>
-            </a>
+                {props.description && <p className="small">{props.description}</p>}
+                <Link className='primaryBut small' role="button" to={`${props.link}`}>Read More</Link>
+            </div>
         </div>
     )
 }

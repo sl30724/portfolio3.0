@@ -1,58 +1,56 @@
 import ProjectCard from '../components/ProjectCard';
+import { Link } from "react-router-dom";
 
 export default function Work() {
     return (
         <>
-        <div className="background">
-        </div>
-        <div className='content'>
-            <div className='headline'>
-                <h1 className='gradientText'>Hi, I'm Sandy.</h1>
-                <p>As a designer and a moonlighting developer, I’m passionate about crafting experiences that are fun, human-centered, and meaningful.</p>
+            <div className="background">
             </div>
-            <div className='projects' id='workProjects'>
-                <ProjectCard
-                    id='project1'
-                    highlight={false}
-                    type='UX Research / Accessibility'
-                    name='Street Business School'
-                    pic='/pics/Sbs2.png'
-                    link='/work/sbs'
-                    background='blue' />
-                <ProjectCard
-                    id='project2'
-                    highlight={false}
-                    type='Product Design / Mobile App'
-                    name='Empowering Voters with VoteAlly'
-                    pic='/pics/Voteally.png'
-                    link='/work/voteally'
-                    background='pink' />
-                <ProjectCard
-                    id='project3'
-                    highlight={true}
-                    type='Product Design / Mobile App'
-                    name='Designing Safety and Trust on Craigslist'
-                    pic='/pics/Craigslist.png'
-                    link='/work/craigslist'
-                    background='grey' />
-            </div>
-            <div className='inProcess'>
+            <div className='content'>
                 <div className='headline'>
-                    <h2 className='gradientText'>In Process.</h2>
-                    <p>Ongoing research & design projects.</p>
+                    <h1 className='gradientText'>Sandy crafts digital products that resonate.</h1>
+                    <p>I’m a Product Designer (UI/UX) and a moonlighting UI Developer. Over the past 2+ years, I’ve helped startups and established companies create joyful, engaging, and impactful digital products & experiences that resonate with their diverse audiences.</p>
+                    <Link className='primaryBut small' role="button" to="/about">Learn About Me</Link>
                 </div>
-                <div className='projects'>
+                <div className='projects' id='workProjects'>
                     <ProjectCard
-                        id='project4'
+                        id='project3'
                         highlight={true}
-                        type='UX Design / Mobile App'
-                        name='Facilitating Adolescent Self-Disclosure on WhoAmI'
+                        type='UX Research / UX Design   •   Mobile App   •   2023 Jun – Current'
+                        name="Elevating Teens' Experiences on Social Media: WhoAmI Today"
+                        description="We believe social media should empower teenagers to forge deeper friendships with their authentic selves. How might we create a social media that embraces a culture of candid self-disclosure? What are some cutting-edge design approaches we unveil from over 200 user surveys and interviews?"
                         pic='/pics/Whoami.png'
                         link='/work/whoami'
+                        background='grey' />
+                    <ProjectCard
+                        id='project3'
+                        highlight={true}
+                        type='Product Design / UX Research / UX Design   •   Mobile App   •   2022 Sep – Nov'
+                        name='Designing Safety and Trust on Craigslist'
+                        description='How might we address users’ feelings and concerns while navigating through a complex information architecture? Could expanding the existing design system be the key to cleaner interfaces that convey the same simplicity that users already associate Craigslist with?'
+                        pic='/pics/Craigslist.png'
+                        link='/work/craigslist'
+                        background='blue' />
+                    <ProjectCard
+                        id='project3'
+                        highlight={false}
+                        type='Product Design / UX Research / UX Design   •   Mobile App   •   2022 Mar – May'
+                        name='Empowering Voters with VoteAlly'
+                        description="The voters' journey expands beyond the election days. How might we help individuals seeking to cast well-informed votes? Could the provision of candidate insights and personalized election reminders hold the key to a more empowering experience?"
+                        pic='/pics/Voteally.png'
+                        link='/work/voteally'
+                        background='pink' />
+                    <ProjectCard
+                        id='project3'
+                        highlight={false}
+                        type='UX Research / Accessibility Research   •   Website   •   2022 Oct'
+                        name='Accessibility for Street Business School'
+                        description="Street Business School aims to enhance the accessibility of its website as it embarks on a new phase of growth. How can we leverage accessibility checkers, tools, and heuristic reports to identify prevailing accessibility barriers and transform them into actionable insights?"
+                        pic='/pics/Sbs.png'
+                        link='/work/sbs'
                         background='orange' />
                 </div>
             </div>
-        </div>
         </>
     )
 }

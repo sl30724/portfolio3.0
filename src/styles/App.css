@@ -1,3 +1,21 @@
+.primaryBut {
+  border-radius: 16px;
+  background: rgba(97, 50, 242, 0.80);
+  padding: 12px 16px;
+  margin: 16px 0px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.20);
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.primaryBut:hover {
+  background: rgba(97, 50, 242, 0.50);
+  color: #ffffff;
+}
+
 .header {
   width: 90vw;
   height: 70px;
@@ -110,6 +128,7 @@ footer {
   color: var(--on-surface);
   text-decoration: none;
 }
+
 .footerNavCol ul li a:hover {
   color: var(--on-background);
   text-decoration: none;
@@ -121,26 +140,33 @@ footer {
   align-items: center;
   justify-content: flex-start;
   gap: 80px;
-  margin-top: calc(5% + 140px);
+  margin-top: calc(5% + 100px);
   margin-bottom: calc(5% + 80px);
 }
 
 .headline {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 100%;
+  align-items: flex-start;
+  text-align: left;
+  max-width: 60%;
+  min-width: 300px;
   gap: 16px;
   margin-bottom: 5%;
 }
 
 .headline p {
-  min-width: 313px;
-  max-width: 55%;
+  max-width: 95%;
 }
 
 .projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.projectLink {
   border-radius: 24px;
   display: flex;
   flex-direction: column;
@@ -157,16 +183,16 @@ footer {
   gap: 40px;
 }
 
-.projectCard a {
+.projectLink a {
   text-decoration: none;
   color: unset;
 }
 
-.projectCard a:hover {
+.projectLink a:hover {
   color: unset;
 }
 
-.projectCard:hover {
+.projectLink:hover {
   cursor: pointer;
   color: var(--on-background);
   filter: var(--hover);
@@ -176,9 +202,32 @@ footer {
 .projectTitle {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  align-self: stretch;
-  text-align: right;
+  align-items: flex-start;
+  text-align: left;
+  width: fit-content;
+  max-width: 52%;
+  min-width: 300px;
+  gap: 16px;
+}
+
+.projectTitle .title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.projectTitle .overline {
+  color: var(--on-primary-container);
+}
+
+.projectTitle .divider {
+  height: 1px;
+  width: 100%;
+  background-color: var(--on-primary-container);
+}
+
+.projectTitle .primaryBut {
+  margin: 0;
 }
 
 .projectCover img {
@@ -189,12 +238,12 @@ footer {
 .projects {
   display: flex;
   flex-flow: row wrap;
-  gap: 20px;
+  justify-content: center;
+  gap: 64px;
 }
 
 #project1 {
   flex: 1 0 calc(100%/3*1.2 - 20px);
-  gap: 160px;
 }
 
 #project2 {
@@ -208,32 +257,35 @@ footer {
 .inProcess {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   gap: 20px;
   width: 100%;
 }
 
-.inProcess .projectCard {
+.inProcess .projectLink {
   width: 100%;
 }
 
-#funProjects .projectCard {
+#funProjects .projectLink {
   padding: 48px 24px 0px 24px;
 }
 
 #funProjects .projectTitle {
-align-items: flex-start;
-text-align: left;
+  align-items: flex-start;
+  text-align: left;
 }
 
 #funProjects .projectTitle h4 {
   color: var(--on-primary-container);
 }
 
-#fun1, #fun2 {
+#fun1,
+#fun2 {
   flex: 1 0 calc(100%/2 - 20px);
 }
 
-#fun1 img, #fun2 img {
+#fun1 img,
+#fun2 img {
   border-radius: 25px 25px 0px 0px;
 }
 
