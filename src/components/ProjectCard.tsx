@@ -31,7 +31,7 @@ export default function ProjectCard(props: Project) {
                 {/* <div className="divider"></div>  */}
                 </div>
                 {props.description && <p className="small">{props.description}</p>}
-                <Link className='primaryBut small' role="button" to={`${props.link}`}>Read More</Link>
+                <Link className='primaryBut small' role="button" to={`${props.link}`}>See Project Details</Link>
             </div>
         </div>
     )
