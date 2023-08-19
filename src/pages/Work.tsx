@@ -16,7 +16,7 @@ export default function Work() {
                     <ProjectCard
                         id='project3'
                         highlight={true}
-                        type='UX Research / UX Design   •   Mobile App   •   2023 Jun – Current'
+                        type='Product Design • Mobile App • 2023'
                         name="Elevating Teens' Experiences on Social Media: WhoAmI Today"
                         description="We believe social media should empower teenagers to forge deeper friendships with their authentic selves. How might we create a social media that embraces a culture of candid self-disclosure? What are some cutting-edge design approaches we unveil from over 200 user surveys and interviews?"
                         pic='/pics/Whoami.png'
@@ -25,7 +25,7 @@ export default function Work() {
                     <ProjectCard
                         id='project3'
                         highlight={true}
-                        type='Product Design / UX Research / UX Design   •   Mobile App   •   2022 Sep – Nov'
+                        type='Product Design   •   Mobile App   •   2022'
                         name='Designing Safety and Trust on Craigslist'
                         description='How might we address users’ feelings and concerns while navigating through a complex information architecture? Could expanding the existing design system be the key to cleaner interfaces that convey the same simplicity that users already associate Craigslist with?'
                         pic='/pics/Craigslist.png'
