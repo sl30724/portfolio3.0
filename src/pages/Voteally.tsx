@@ -8,6 +8,7 @@ export default function Voteally() {
         <div className='content'>
             <div className='projectHeadline'>
                 <h2 className='gradientText'>Voteally.</h2>
+                <p className='small projectHmw'>How might we help the individuals seeking to cast well-informed votes be more prepared prior to elections?</p>
                 <div className='projectIntro'>
                     <div className='innerProjectIntro'>
                         <p className='overline'>timeline</p>

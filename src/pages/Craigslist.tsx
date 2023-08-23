@@ -8,6 +8,7 @@ export default function Craigslist() {
         <div className='content'>
             <div className='projectHeadline'>
                 <h2 className='gradientText'>Craigslist.</h2>
+                <p className='small projectHmw'>How might we address users’ feelings and concerns while navigating through a complex information architecture?</p>
                 <div className='projectIntro'>
                     <div className='innerProjectIntro'>
                         <p className='overline'>timeline</p>
@@ -30,14 +31,14 @@ export default function Craigslist() {
                     </div>
                 </div>
             </div>
+            <div className='projectContent'>
+                <h4 className='gradientText'>Overview</h4>
+                <p>This is a personal project to redesign the Craigslist mobile app. I was drawn to the idea of redesigning Craigslist because I wanted to challenge myself on simplifying complexities while addressing users’ concerns and emotions at the same time.</p>
+            </div>
             <div className='projectImg'>
                 <Zoom>
                     <img src="/pics/cr/Cr_cover.png" alt="Voteally mobile screens" />
                 </Zoom>
-            </div>
-            <div className='projectContent'>
-                <h4 className='gradientText'>Overview</h4>
-                <p>This is a personal project to redesign the Craigslist mobile app. I was drawn to the idea of redesigning Craigslist because I wanted to challenge myself on simplifying complexities while addressing users’ concerns and emotions at the same time.</p>
             </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Assumptions</h4>

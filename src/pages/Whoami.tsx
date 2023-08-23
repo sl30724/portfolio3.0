@@ -8,6 +8,7 @@ export default function Whoami() {
         <div className='content'>
             <div className='projectHeadline'>
                 <h2 className='gradientText'>WhoAmi Today.</h2>
+                <p className='small projectHmw'>How might we create a social media that encourages teenagers to forge deeper friendships with their authentic selves?</p>
                 <div className='projectIntro'>
                     <div className='innerProjectIntro'>
                         <p className='overline'>timeline</p>
@@ -33,19 +34,19 @@ export default function Whoami() {
                     </div>
                 </div>
             </div>
-            <div className='projectImg'>
-                <Zoom>
-                    <img src="/pics/Whoami.png" alt="Whoami cover" />
-                </Zoom>
-            </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Overview</h4>
                 <p>WhoAmi Today is a social media app designed to promote adolescent self-disclosure and wellbeing.
                     Inspired by a research project at DUB lab, University of Washington, WhoAmi believes that being able to self-disclose instead of self-present is the key for adolescents to improve relationship quality between peers, allows for identity exploration and development, and improves well-being of adolescents.
                     <br />
                     <br />
-                    I joined WhoAmi Today as the second designer on the design team. I work closely with seven developers and two product managers. My job includes establishing and expanding desgin systems, defining features based on research findings, making lofi and hifi wireframes, improving the user flow, and creating interaction design. We're aiming to launch the first version of Whoami by the end of August. Please come back then to check out more project details.
+                    I joined WhoAmi Today as the second designer on the design team. I work closely with seven developers and two product managers. My job includes establishing and expanding desgin systems, defining features based on research insights, making lofi and hifi wireframes, improving the user flow, and creating interaction design. We're aiming to launch the first version of Whoami by the end of August. Please come back then to check out more project details.
                 </p>
+            </div>
+            <div className='projectImg'>
+                <Zoom>
+                    <img src="/pics/who/Who_cover.png" alt="Whoami cover" />
+                </Zoom>
             </div>
         </div>
     )

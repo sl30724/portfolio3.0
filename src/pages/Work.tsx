@@ -16,16 +16,16 @@ export default function Work() {
                     <ProjectCard
                         id='project3'
                         highlight={true}
-                        type='Product Design • Mobile App • 2023'
-                        name="Elevating Teens' Experiences on Social Media: WhoAmI Today"
-                        description="We believe social media should empower teenagers to forge deeper friendships with their authentic selves. How might we create a social media that embraces a culture of candid self-disclosure? What are some cutting-edge design approaches we unveil from over 200 user surveys and interviews?"
+                        type='Product Design (UI/UX) • Mobile App • 2023'
+                        name="Elevating Teens' Experiences on Social Media: WhoAmI Today (In Progress)"
+                        description="How might we create a social media that encourages teenagers to forge deeper friendships with their authentic selves? What are some cutting-edge design approaches we unveil from over 200 user surveys and interviews?"
                         pic='/pics/Whoami.png'
                         link='/work/whoami'
                         background='grey' />
                     <ProjectCard
                         id='project3'
                         highlight={true}
-                        type='Product Design   •   Mobile App   •   2022'
+                        type='Product Design (UI/UX)   •   Mobile App   •   2022'
                         name='Designing Safety and Trust on Craigslist'
                         description='How might we address users’ feelings and concerns while navigating through a complex information architecture? Could expanding the existing design system be the key to cleaner interfaces that convey the same simplicity that users already associate Craigslist with?'
                         pic='/pics/Craigslist.png'
@@ -34,9 +34,9 @@ export default function Work() {
                     <ProjectCard
                         id='project3'
                         highlight={false}
-                        type='Product Design / UX Research / UX Design   •   Mobile App   •   2022 Mar – May'
+                        type='Product Design (UI/UX)   •   Mobile App   •   2022 Mar – May'
                         name='Empowering Voters with VoteAlly'
-                        description="The voters' journey expands beyond the election days. How might we help individuals seeking to cast well-informed votes? Could the provision of candidate insights and personalized election reminders hold the key to a more empowering experience?"
+                        description="The voters' journey expands beyond the election days. How might we help the individuals seeking to cast well-informed votes be more prepared prior to elections? Could the provision of candidate insights and personalized election reminders hold the key to a more empowering experience?"
                         pic='/pics/Voteally.png'
                         link='/work/voteally'
                         background='pink' />
