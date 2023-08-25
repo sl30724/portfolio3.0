@@ -1,6 +1,8 @@
 import '../styles/Project.css';
 import '../styles/Zoom.css';
 import Zoom from 'react-medium-image-zoom';
+import { Icon } from '@iconify-icon/react';
+import { Link } from "react-router-dom";
 
 export default function Sbs() {
 
@@ -142,6 +144,10 @@ export default function Sbs() {
                         <li>Include competitor analysis in the beginning to understand why SBS stands out from other nonprofits.</li>
                     </ul>
                 </p>
+            </div>
+            <div className='prevNext'>
+            <Link className='subtitle' role="button" to="/work/voteally"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }}/>Voteally</Link>
+            <Link className='subtitle' role="button" to="/work/Whoami">Whoami Today <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }}/></Link>
             </div>
         </div>
     )

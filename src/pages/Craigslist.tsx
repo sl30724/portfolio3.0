@@ -1,6 +1,8 @@
 import '../styles/Project.css';
 import '../styles/Zoom.css';
 import Zoom from 'react-medium-image-zoom';
+import { Icon } from '@iconify-icon/react';
+import { Link } from "react-router-dom";
 
 export default function Craigslist() {
 
@@ -204,6 +206,10 @@ It helps members learn more about whom they’re connecting with, stay on top of
                     <p className='subtitle gradientText'>User Retention: The right amount of fun</p>
                     <p>From initial user feedback, I learn that even when it looks good, it's not "fun" for users. Therefore, I implemented two features that provide some game elements in the app: the profile badges and the popular in your area section.</p>
                 </div>
+            </div>
+            <div className='prevNext'>
+            <Link className='subtitle' role="button" to="/work/whoami"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }}/>Whoami Today</Link>
+            <Link className='subtitle' role="button" to="/work/voteally">Voteally <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }}/></Link>
             </div>
         </div>
     )

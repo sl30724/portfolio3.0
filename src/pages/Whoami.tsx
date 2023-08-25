@@ -1,6 +1,8 @@
 import '../styles/Project.css';
 import '../styles/Zoom.css';
 import Zoom from 'react-medium-image-zoom';
+import { Icon } from '@iconify-icon/react';
+import { Link } from "react-router-dom";
 
 export default function Whoami() {
 
@@ -47,6 +49,10 @@ export default function Whoami() {
                 <Zoom>
                     <img src="/pics/who/Who_cover.png" alt="Whoami cover" />
                 </Zoom>
+            </div>
+            <div className='prevNext'>
+            <Link className='subtitle' role="button" to="/work/Sbs"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }}/>Accessibility for SBS</Link>
+            <Link className='subtitle' role="button" to="/work/craigslist">Craigslist <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }}/></Link>
             </div>
         </div>
     )

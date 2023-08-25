@@ -1,6 +1,8 @@
 import '../styles/Project.css';
 import '../styles/Zoom.css';
 import Zoom from 'react-medium-image-zoom';
+import { Icon } from '@iconify-icon/react';
+import { Link } from "react-router-dom";
 
 export default function Voteally() {
 
@@ -191,6 +193,10 @@ export default function Voteally() {
                     <p className='subtitle gradientText'>Social Element: Multiple benefits</p>
                     <p>Not only does the discussion page come from the user research findings, it also serves the “social proof” and “entertainment” purposes. These are both trigger elements for users to engage on this app.</p>
                 </div>
+            </div>
+            <div className='prevNext'>
+            <Link className='subtitle' role="button" to="/work/craigslist"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }}/>Craigslist</Link>
+            <Link className='subtitle' role="button" to="/work/sbs">Accessibility for SBS <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }}/></Link>
             </div>
         </div>
     )
