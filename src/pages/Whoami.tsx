@@ -10,7 +10,7 @@ export default function Whoami() {
         <div className='content'>
             <div className='projectHeadline'>
                 <h2 className='gradientText'>WhoAmi Today.</h2>
-                <p className='small projectHmw'>How might we create a social media that encourages teenagers to forge deeper friendships with their authentic selves?</p>
+                <p className='subtitle projectHmw'>How might we create a social media that encourages teenagers to forge deeper friendships with their authentic selves?</p>
                 <div className='projectIntro'>
                     <div className='innerProjectIntro'>
                         <p className='overline'>timeline</p>

@@ -1,0 +1,41 @@
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+
+.colContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    padding: 40px;
+    gap: 80px;
+    background-color: rgba(230, 222, 255, 0.5);
+    border-radius: 24px;
+}
+
+.colBut {
+    background-color: var(--primary-container);
+    color: var(--on-primary-container);
+    padding: 16px 24px;
+    border-radius: 16px;
+    border: solid 1px var(--primary);
+}
+
+.colBut:hover {
+    background-color: rgba(230, 222, 255, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(202, 190, 255, 0.5);
+}
+
+.colButContent {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.colButContent .icon {
+    color: var(--primary);
+}

@@ -3,6 +3,7 @@ import '../styles/Zoom.css';
 import Zoom from 'react-medium-image-zoom';
 import { Icon } from '@iconify-icon/react';
 import { Link } from "react-router-dom";
+import CollapseCom from '../components/CollapseCom';
 
 export default function Craigslist() {
 
@@ -10,20 +11,20 @@ export default function Craigslist() {
         <div className='content'>
             <div className='projectHeadline'>
                 <h2 className='gradientText'>Craigslist.</h2>
-                <p className='small projectHmw'>How might we address users’ feelings and concerns while navigating through a complex information architecture?</p>
+                <p className='subtitle projectHmw'>How might we address users’ feelings and concerns while navigating through a complex information architecture?</p>
                 <div className='projectIntro'>
                     <div className='innerProjectIntro'>
                         <p className='overline'>timeline</p>
-                        <p className='small'>2022 Sep – 2022 Nov</p>
+                        <p className='small'>2022 Sep – Nov</p>
                     </div>
                     <div className='innerProjectIntro'>
                         <p className='overline'>team</p>
                         <ul className='small'>
-                            <li>Personal Project</li>
+                            <li>Sandy Lee</li>
                         </ul>
                     </div>
                     <div className='innerProjectIntro'>
-                        <p className='overline'>role</p>
+                        <p className='overline'>scope</p>
                         <ul className='small'>
                             <li>Product Design</li>
                             <li>Design System</li>
@@ -33,107 +34,123 @@ export default function Craigslist() {
                     </div>
                 </div>
             </div>
-            <div className='projectContent'>
-                <h4 className='gradientText'>Overview</h4>
-                <p>This is a personal project to redesign the Craigslist mobile app. I was drawn to the idea of redesigning Craigslist because I wanted to challenge myself on simplifying complexities while addressing users’ concerns and emotions at the same time.</p>
+            <div className='projectOverview' id='cr-overview'>
+                <img src="/pics/Craigslist.png" alt="Craigslist project cover" />
+            </div>
+            <div className='rows'>
+                <div className='projectContentRow'>
+                    <h4 className='gradientText'>Overview</h4>
+                    <p>As the final project for the course “Human-Centered User Experience 2”, I undertook the challenge to reshape the Craigslist mobile app. Driven by the goals of simplifying complexities and addressing users' emotional needs, this project aims to tackle the pressing issue of waning trust in Craigslist due to safety concerns, improving and revitalizing the overall trading experience and environment on the Craigslist platform.</p>
+                </div>
+                <div className='projectContentRow'>
+                    <h4 className='gradientText'>Problem</h4>
+                    <p>To kickstart the project, I confronted a pivotal assumption: despite Craigslist's reputation for simplicity, it has faced a decline in appeal due to safety concerns and a lack of intuitive design compared to its competitors. How can we effectively address user concerns and create an intuitive experience within the framework of a complex information architecture?</p>
+                </div>
+                <div className='projectContentRow'>
+                    <h4 className='gradientText'>Results</h4>
+                    <p>
+                        <ul>
+                            <li><span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>66%</span> of testing users said they would <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>trade more</span> with the redesign.</li>
+                            <li><span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>80%</span> of testing users <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>felt safer</span> with the new functions.</li>
+                            <li><span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>100%</span> of testing users said the redesign is <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>easier</span> to navigate.</li>
+                        </ul></p>
+                </div>
             </div>
             <div className='projectImg'>
-                <Zoom>
-                    <img src="/pics/cr/Cr_cover.png" alt="Voteally mobile screens" />
-                </Zoom>
+                <video autoPlay muted loop>
+                    <source src="/vids/cr_oldNew.mp4" type="video/mp4" />
+                </video>
             </div>
-            <div className='projectContent'>
-                <h4 className='gradientText'>Assumptions</h4>
-                <div className='jtbd'>
-                    <h2>"</h2>
-                    <p className='subtitle'>Craigslist Is Sketchy. But It Can Change.</p>
-                    <h2>"</h2>
+            <CollapseCom>
+                <div className='projectContent'>
+                    <h4 className='gradientText'>Focusing on Users</h4>
+                    <p>Embracing a user-centered approach, I crafted a compelling User Persona and a thorough Emotional Journey Map. These strategic tools crystallized users' motivations, concerns, feelings, and goals, guiding me in identifying pain points and opportunities for transformation.</p>
+                    <div className='imgGallery'>
+                        <div className='projectImg' id='cr-persona'>
+                            <Zoom>
+                                <img src="/pics/cr/Cr_userPersona.png" alt="Craigslist User Persona" />
+                            </Zoom>
+                            <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> User Persona</p>
+                        </div>
+                        <div className='projectImg' id='cr-journey'>
+                            <Zoom>
+                                <img src="/pics/cr/Cr_userMap.png" alt="Craigslist user journey map" />
+                            </Zoom>
+                            <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> User Emotional Journey</p>
+                        </div>
+                    </div>
                 </div>
-                <p>With all the other options to trade second-hand goods and services on the market, people don’t trade on Craigslist anymore because it feels unsafe and unreliable.
-                    How can we make Craigslist safe & modern again, while keeping the same simplicity that people like and associate Craigslist with?</p>
-            </div>
-            <div className='projectContent'>
-                <h4 className='gradientText'>User Persona</h4>
-                <div className='projectImg'>
-                    <Zoom>
-                        <img src="/pics/cr/Cr_userPersona.png" alt="Craigslist User Persona" />
-                    </Zoom>
-                    <p className='caption'>Craigslist's user persona</p>
+                <div className='projectContent'>
+                    <h4 className='gradientText'>Designing for Purpose</h4>
+                    <p>With a clearer view of users' experiences, I distilled the Job to Be Done, a concise guiding principle steering the project. This served as a compass, ensuring that every design decision would harmoniously align with the overarching objective.</p>
+                    <div className='projectImg'>
+                        <Zoom>
+                            <img src="/pics/cr/Cr_jtbd.png" alt="Craigslist job to be done" />
+                        </Zoom>
+                        <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Job To Be Done</p>
+                    </div>
                 </div>
-                <p>To understand Craigslist users better, I created a persona to understand their motivations, concerns, feelings, and goals when they’re using Craigslist to gain actionable insights.</p>
-            </div>
-            <div className='projectContent'>
-                <h4 className='gradientText'>User Journey</h4>
-                <div className='projectImg'>
-                    <Zoom>
-                        <img src="/pics/cr/Cr_userMap.png" alt="Craigslist user journey map" />
-                    </Zoom>
-                    <p className='caption'>Craigslist's original user journey map</p>
+                <div className='projectContent'>
+                    <h4 className='gradientText'>Crafting the Solution</h4>
+                    <p>With purpose as my guide, I mapped out an enhanced User Journey. Enriched with redesigned elements and new features that aligned with users' needs, this map showcased how each innovation contributed to a more enriched and satisfying experience.
+                        <br />
+                        <br />Moreover, I crafted design strategies for each function based on psychological principles, ensuring each feature resonated on a psychological level. This not only bolstered usability but also engaged users on a deeper level.
+                    </p>
+                    <div className='imgGallery'>
+                        <div className='projectImg' id='cr-improvedMap'>
+                            <Zoom>
+                                <img src="/pics/cr/Cr_improvedMap.png" alt="Craigslist improved user journey map" />
+                            </Zoom>
+                            <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Improved Journey Map</p>
+                        </div>
+                        <div className='projectImg' id='cr-strategies'>
+                            <Zoom>
+                                <img src="/pics/cr/Cr_featureDetails.png" alt="Craigslist feature details" />
+                            </Zoom>
+                            <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Design Strategies</p>
+                        </div>
+                    </div>
                 </div>
-                <p>I decided an emotional journey map would be suitable for this project since it’s closely related to the user’s feelings. This map helped me understand where and when the frustration happens throughout the existing Craigslist experience.</p>
-            </div>
+            </CollapseCom>
             <div className='projectContent'>
-                <h4 className='gradientText'>Job to Be Done</h4>
-                <div className='projectImg'>
-                    <Zoom>
-                        <img src="/pics/cr/Cr_jtbd.png" alt="Craigslist job to be done" />
-                    </Zoom>
-                </div>
-                <p>Based on the user persona and emotional journey map, I defined the job to be done to identify the goal of this project. It also helps me plan out what features to improve or implement, and what purpose they serve.</p>
-            </div>
-            <div className='projectContent'>
-                <h4 className='gradientText'>Improved User Journey</h4>
-                <div className='projectImg'>
-                    <Zoom>
-                        <img src="/pics/cr/Cr_improvedMap.png" alt="Craigslist improved user journey map" />
-                    </Zoom>
-                    <p className='caption'>Craigslist improved user journey map</p>
-                </div>
-                <p>I made an improved user journey map to help me envision what an ideal emotional journey would look like with the new and improved features by marking down when and how these three features would improve the original journey map.
+                <h4 className='gradientText'>Evolving Design System</h4>
+                <p>Respecting the familiarity of Craigslist's design identity, I carefully expanded the Design System. This gentle transformation encompassed expanding font sets and color systems, ensuring a fresh but recognizable visual narrative.
                 </p>
-            </div>
-            <div className='projectContent'>
-                <h4 className='gradientText'>Defining features</h4>
-                <div className='projectImg'>
-                    <Zoom>
-                        <img src="/pics/cr/Cr_featureDetails.png" alt="Craigslist feature details" />
-                    </Zoom>
-                    <p className='caption'>Craigslist feature details</p>
-                </div>
-                <p>I used mental notes to look back on and connect each feature to psychology aspects. This helped me define the details of each feature I intend on designing. I chose three mental notes for each feature, and put down the design strategies I can use to achieve them.
-                </p>
-            </div>
-            <div className='projectContent'>
-                <h4 className='gradientText'>Design System</h4>
                 <div className='projectImg'>
                     <Zoom>
                         <img src="/pics/cr/Cr_designSystem.png" alt="Craigslist improved design system" />
                     </Zoom>
-                    <p className='caption'>Craigslist improved design system</p>
+                    <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Evolved Design System</p>
                 </div>
-                <p>Craigslist has a familiar simplicity people already associate with. Without drastically changing the design system, users now will have a better experience exploring the world of Craigslist with an expanded font set and color system.
-                </p>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>Old Design</h4>
+                <h4 className='gradientText'>Design Iterations: Home</h4>
+                <p>The evolution of the new home page unfolded through three iterations. Rooted in the quest to optimize user interactions, the redesigned home page embraced a dual purpose: simplifying the intricate information architecture and minimizing user actions to discover desired categories.
+                    <br />
+                    <br />
+                    <ul>
+                        <li><span style={{ color: "var(--primary)", fontWeight: 500}}>Version 1:</span> included images within category components, intending to leverage visual cues for users' navigation.</li>
+                        <li><span style={{ color: "var(--primary)", fontWeight: 500}}>Version 2:</span> focused on text-based elements, embracing the power of simplicity.</li>
+                    </ul>
+                    <br />
+                    Guided by invaluable insights garnered from initial user testing of the first two versions, <span style={{ color: "var(--primary)", fontWeight: 500}}>Version 3</span> emerged. Building upon the foundation of Version 2, this iteration integrated the "popular categories in your area" feature. By providing social proof, this addition was intended to increase user engagement.
+                </p>
                 <div className='projectImg'>
                     <Zoom>
-                        <img src="/pics/cr/Cr_old.png" alt="Craigslist old design" />
+                        <img src="/pics/cr/Cr_ideations.png" alt="Design iterations: Home" />
                     </Zoom>
-                    <p className='caption'>Craigslist old design</p>
+                    <p className='caption imgCaption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Design Iterations: Home</p>
                 </div>
-                <p>Before jumping into design iterations, I first took a look at the current Cragislist app to identify the screens to improved and the problems in them.
-                </p>
             </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Final Design</h4>
                 <div className='feature'>
-                        <div className='projectImg'>
-                            <Zoom>
-                                <img src="/pics/cr/Cr_home.png" alt="Craigslist new home screen" />
-                            </Zoom>
-                            <p className='caption'>Craigslist New Home</p>
-                        </div>
+                    <div className='projectImg'>
+                        <Zoom>
+                            <img src="/pics/cr/Cr_home.png" alt="Craigslist new home screen" />
+                        </Zoom>
+                        <p className='caption'>Craigslist New Home</p>
+                    </div>
                     <div className='featureContent'>
                         <h5 className='gradientText'>Home</h5>
                         <p>Based on user feedbacks from the first two design iterations, I decided to go with the simplest one. I highlighted the search bar, organized subcategories with better color hierarchy, and added a new “Popular in Your Area” section to provide social proof and just the right amount of fun.</p>
@@ -173,7 +190,7 @@ export default function Craigslist() {
                     <div className='featureContent'>
                         <h5 className='gradientText'>Craigslist In-App Messages</h5>
                         <p>A well-organized messaging system providing social proof and feedbacks.
-It helps members learn more about whom they’re connecting with, stay on top of the conversations, and ease anxiety when it comes to reaching out to a stranger.</p>
+                            It helps members learn more about whom they’re connecting with, stay on top of the conversations, and ease anxiety when it comes to reaching out to a stranger.</p>
                     </div>
                 </div>
             </div>
@@ -208,8 +225,8 @@ It helps members learn more about whom they’re connecting with, stay on top of
                 </div>
             </div>
             <div className='prevNext'>
-            <Link className='subtitle' role="button" to="/work/whoami"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }}/>Whoami Today</Link>
-            <Link className='subtitle' role="button" to="/work/voteally">Voteally <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }}/></Link>
+                <Link className='subtitle' role="button" to="/work/whoami"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }} />Whoami Today</Link>
+                <Link className='subtitle' role="button" to="/work/voteally">Voteally <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }} /></Link>
             </div>
         </div>
     )
