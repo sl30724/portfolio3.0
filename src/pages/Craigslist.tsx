@@ -124,94 +124,110 @@ export default function Craigslist() {
                 </div>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>Design Iterations: Home</h4>
+                <h4 className='gradientText'>Ideations for Home</h4>
                 <p>The evolution of the new home page unfolded through three iterations. Rooted in the quest to optimize user interactions, the redesigned home page embraced a dual purpose: simplifying the intricate information architecture and minimizing user actions to discover desired categories.
                     <br />
                     <br />
                     <ul>
-                        <li><span style={{ color: "var(--primary)", fontWeight: 500}}>Version 1:</span> included images within category components, intending to leverage visual cues for users' navigation.</li>
-                        <li><span style={{ color: "var(--primary)", fontWeight: 500}}>Version 2:</span> focused on text-based elements, embracing the power of simplicity.</li>
+                        <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Version 1:</span> included images within category components, intending to leverage visual cues for users' navigation.</li>
+                        <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Version 2:</span> focused on text-based elements, embracing the power of simplicity.</li>
                     </ul>
                     <br />
-                    Guided by invaluable insights garnered from initial user testing of the first two versions, <span style={{ color: "var(--primary)", fontWeight: 500}}>Version 3</span> emerged. Building upon the foundation of Version 2, this iteration integrated the "popular categories in your area" feature. By providing social proof, this addition was intended to increase user engagement.
+                    Guided by invaluable insights garnered from initial user testing of the first two versions, <span style={{ color: "var(--primary)", fontWeight: 500 }}>Version 3</span> emerged. Building upon the foundation of Version 2, this iteration integrated the "popular categories in your area" feature. By providing social proof, this addition was intended to increase user engagement.
                 </p>
                 <div className='projectImg'>
                     <Zoom>
-                        <img src="/pics/cr/Cr_ideations.png" alt="Design iterations: Home" />
+                        <img src="/pics/cr/Cr_ideations.png" alt="Ideations: Home" />
                     </Zoom>
                     <p className='caption imgCaption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Design Iterations: Home</p>
                 </div>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>Final Design</h4>
-                <div className='feature'>
-                    <div className='projectImg'>
-                        <Zoom>
-                            <img src="/pics/cr/Cr_home.png" alt="Craigslist new home screen" />
-                        </Zoom>
-                        <p className='caption'>Craigslist New Home</p>
-                    </div>
-                    <div className='featureContent'>
-                        <h5 className='gradientText'>Home</h5>
-                        <p>Based on user feedbacks from the first two design iterations, I decided to go with the simplest one. I highlighted the search bar, organized subcategories with better color hierarchy, and added a new “Popular in Your Area” section to provide social proof and just the right amount of fun.</p>
-                    </div>
-                </div>
-                <div className='feature' id='reverse'>
-                    <div className='projectImg'>
-                        <Zoom>
-                            <img src="/pics/cr/Cr_searchNew.png" alt="Craigslist new search" />
-                        </Zoom>
-                        <p className='caption'>Craigslist New Search</p>
-                    </div>
-                    <div className='featureContent'>
-                        <h5 className='gradientText'>Search</h5>
-                        <p>The original search function has a messy task flow and a confusing information structure. I removed redundant tasks and added a fixed back button and search bar, also applied new design system to improve hierarchy.</p>
-                    </div>
-                </div>
-                <div className='feature'>
-                    <div className='projectImg'>
-                        <Zoom>
-                            <img src="/pics/cr/Cr_safetyMode.png" alt="Craigslist safety mode" />
-                        </Zoom>
-                        <p className='caption'>Craigslist Safety Mode</p>
-                    </div>
-                    <div className='featureContent'>
-                        <h5 className='gradientText'>Safety Mode</h5>
-                        <p>To improve users' feeling of safety, I decided to design an always-accessible safety mode icon that can be turn on and off. If turned on, the app will apply settings that improve members’ ability to be in control of their safety.</p>
-                    </div>
-                </div>
-                <div className='feature' id='reverse'>
-                    <div className='projectImg'>
-                        <Zoom>
-                            <img src="/pics/cr/Cr_message.png" alt="Craigslist in-app messages" />
-                        </Zoom>
-                        <p className='caption'>Craigslist In-App Messages</p>
-                    </div>
-                    <div className='featureContent'>
-                        <h5 className='gradientText'>Craigslist In-App Messages</h5>
-                        <p>A well-organized messaging system providing social proof and feedbacks.
-                            It helps members learn more about whom they’re connecting with, stay on top of the conversations, and ease anxiety when it comes to reaching out to a stranger.</p>
-                    </div>
+                <h4 className='gradientText'>User Feedback Validation</h4>
+                <p>After creating the lo-fi wireframes, I conducted feedback sessions with five individuals who had actively used the Craigslist mobile app within the past year. Their insights and perspectives played a pivotal role in refining the lo-fi wireframes and ultimately shaping the final design.
+                </p>
+                <div className='projectImg'>
+                    <Zoom>
+                        <img src="/pics/cr/Cr_userFeedback.png" alt="user feedback" />
+                    </Zoom>
+                    <p className='caption imgCaption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} />Initial User Feedback</p>
                 </div>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>Interactive Prototype</h4>
-                <div className='projectImg'>
-                    <Zoom>
-                        <img src="/pics/cr/Cr_prototype.gif" alt="Craigslist prototype" />
-                    </Zoom>
-                    <p className='caption'>Craigslist prototype</p>
+                <h4 className='gradientText'>Final Design</h4>
+                <p>Based on valuable user research insights and user feedback, I designed 13+ screens for 4 key features, including the revamped Home page, streamlined Search function, innovative Safety Mode, and user-friendly In-App Messages system, crafting a seamless and resonant user experience.</p>
+            </div>
+            <div className='projectImg'>
+                        <img src="/pics/cr/Cr_new.png" alt="Final designs" />
                 </div>
-                <p>To summarize, 14+ screens and 4+ features were redesigned and made for this project:
-                    <br />
-                    <br />
-                    <ul>
-                        <li>Home page with clearer information hierarchy.</li>
-                        <li>Search function with fewer tasks and a clearer user flow.</li>
-                        <li>Safety mode aimed to improve users' feelings of safety.</li>
-                        <li>In-app message system that provides social proof and more information on the members users are interacting with.</li>
-                    </ul>
-                </p>
+            <div className='projectContentFull'>
+                <div className='feature'>
+                    <div className='projectImg'>
+                        <video autoPlay muted loop>
+                            <source src="/vids/cr_home.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <div className='featureContent'>
+                        <h5 className='gradientText'>Revamped Home Page</h5>
+                        <p>
+                            <ul>
+                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Highlighted Search Bar:</span> drew users' attention to the most used function in Craigslist.</li>
+                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Two-way Scrolling Categories:</span> reduced the number of user actions needed to find the desired categories.</li>
+                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Popular in Your Area:</span> presented social proof and just the right amount of fun.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div className='feature' id='reverse'>
+                    <div className='projectImg'>
+                        <video autoPlay muted loop>
+                            <source src="/vids/cr_search.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <div className='featureContent'>
+                        <h5 className='gradientText'>Streamlined Search</h5>
+                        <p>
+                            <ul>
+                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Navigational Back Button:</span> provided users with the reassuarance that they can easily go back and correct errors.</li>
+                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Constantly Visible Search Bar:</span> increased accessibility, efficiency, and consistency throughout users' search journey.</li>
+                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Applying Design System:</span> included color depth and typography system to create a clearer information structure.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div className='feature'>
+                    <div className='projectImg'>
+                        <video autoPlay muted loop>
+                            <source src="/vids/cr_safetyMode.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <div className='featureContent'>
+                        <h5 className='gradientText'>Innovative Safety Mode</h5>
+                        <p>
+                            <ul>
+                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Fixed Floating Button:</span> allowed users to turn on and off safety mode anytime.</li>
+                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Safety-first Settings:</span> empowered users with system settings that prioritize safety, including on-site messages only and public meeting place suggestions.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div className='feature' id='reverse'>
+                    <div className='projectImg'>
+                        <video autoPlay muted loop>
+                            <source src="/vids/cr_message.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <div className='featureContent'>
+                        <h5 className='gradientText'>User-friendly Message System</h5>
+                        <p>
+                            <ul>
+                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Categorized Conversations:</span> streamlined users' navigation within a complex message system with various use cases, including buying, selling, and unread.</li>
+                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Premade message templates:</span> increased users' confidence by lowering the effort and time to compose the first message.</li>
+                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Verified User Profile:</span> boosted trust between members with user name, verified status, badges of accomplishments, and last online time.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
             </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Takeaways</h4>
