@@ -18,7 +18,7 @@ const CollapseCom: FC<PropsWithChildren<Col>> = ({ children, name }) => {
                     onClick: () => setExpanded((prevExpanded) => !prevExpanded),
                 })}
             >
-                {isExpanded ? <div className='colButContent'><p className='subtitle'>Research fan? Click to see process</p> <Icon icon='icon-park-solid:up-c' width={26} className='icon'/></div> : <div className='colButContent'><p className='subtitle'>Research fan? Click to see process</p><img src='/pics/question-box.gif' width='30px' /></div>}
+                {isExpanded ? <div className='colButContent'><p className='subtitle'>Research fan? Click to see process</p> <Icon icon='icon-park-solid:up-c' width={26} className='icon'/></div> : <div className='colButContent'><p className='subtitle'>Research fan? Click to see process</p><img src='/pics/question-box.gif' width='30px' alt="question box icon"/></div>}
             </button>
             <section {...getCollapseProps()}>
                 <div className='colContent'>

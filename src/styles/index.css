@@ -62,6 +62,7 @@ body {
   --pink: #F7DFE9;
   --grey: #CBC0D3;
   --orange: #EFD3D7;
+  --green: #E0E0DF;
   --hover: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.20));
   /* gradient background */
   --gradient-background: linear-gradient(
@@ -91,6 +92,10 @@ body {
 
 .orange {
   background-color: var(--orange);
+}
+
+.green {
+  background-color: var(--green);
 }
 
 .white {

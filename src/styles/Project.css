@@ -28,8 +28,19 @@
 
 .projectOverview {
     display: flex;
-    background-color: var(--blue);
     border-radius: 24px;
+}
+
+#cr_overview {
+    background-color: var(--blue);
+}
+
+#io_overview {
+    background-color: var(--green);
+}
+
+#io_cover {
+    background-color: var(--green);
 }
 
 .projectOverview img {
@@ -97,6 +108,16 @@
     align-items: center;
     width: 80%;
     gap: 16px;
+}
+
+.projectDesign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    padding: 40px;
+    gap: 40px;
+    border-radius: 24px;
 }
 
 .projectContent h4 {

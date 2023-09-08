@@ -34,7 +34,7 @@ export default function Craigslist() {
                     </div>
                 </div>
             </div>
-            <div className='projectOverview' id='cr-overview'>
+            <div className='projectOverview' id='cr_overview'>
                 <img src="/pics/Craigslist.png" alt="Craigslist project cover" />
             </div>
             <div className='rows'>
@@ -43,7 +43,7 @@ export default function Craigslist() {
                     <p>As the final project for the course “Human-Centered User Experience 2”, I undertook the challenge to reshape the Craigslist mobile app. Driven by the goals of simplifying complexities and addressing users' emotional needs, this project aims to tackle the pressing issue of waning trust in Craigslist due to safety concerns, improving and revitalizing the overall trading experience and environment on the Craigslist platform.</p>
                 </div>
                 <div className='projectContentRow'>
-                    <h4 className='gradientText'>Problem</h4>
+                    <h4 className='gradientText'>Initial Problem</h4>
                     <p>To kickstart the project, I confronted a pivotal assumption: despite Craigslist's reputation for simplicity, it has faced a decline in appeal due to safety concerns and a lack of intuitive design compared to its competitors. How can we effectively address user concerns and create an intuitive experience within the framework of a complex information architecture?</p>
                 </div>
                 <div className='projectContentRow'>

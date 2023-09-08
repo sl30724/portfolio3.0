@@ -10,6 +10,7 @@ import Sbs from './pages/Sbs';
 import Voteally from './pages/Voteally';
 import Craigslist from './pages/Craigslist';
 import Whoami from './pages/Whoami';
+import Innaorganic from "./pages/Innaorganic";
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path='/work/voteally' element={<Voteally />} />
             <Route path='/work/craigslist' element={<Craigslist />} />
             <Route path='/work/whoami' element={<Whoami />} />
+            <Route path='/work/innaorganic' element={<Innaorganic/>} />
         </Routes>
       </main>
       <footer>
