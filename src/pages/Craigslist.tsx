@@ -157,10 +157,7 @@ export default function Craigslist() {
                 <h4 className='gradientText'>Final Design</h4>
                 <p>Based on valuable user research insights and user feedback, I designed 13+ screens for 4 key features, including the revamped Home page, streamlined Search function, innovative Safety Mode, and user-friendly In-App Messages system, crafting a seamless and resonant user experience.</p>
             </div>
-            <div className='projectImg'>
-                        <img src="/pics/cr/Cr_new.png" alt="Final designs" />
-                </div>
-            <div className='projectContentFull'>
+            <div className='projectContent'>
                 <div className='feature'>
                     <div className='projectImg'>
                         <video autoPlay muted loop>
@@ -229,20 +226,23 @@ export default function Craigslist() {
                     </div>
                 </div>
             </div>
+            <div className='projectImg'>
+                        <img src="/pics/cr/Cr_new.png" alt="Final designs" />
+                </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Takeaways</h4>
                 <div className='bulletPoints'>
-                    <p className='subtitle gradientText'>Information Architecture: Less is more</p>
-                    <p>Throughout my design iterations, the user feedback on the first few designs was still not satisfying. At the end, I learnt that less in more when designing for complex information architecture. By applying a great design system, typography and colors alone can help differentiate different sets of information.</p>
+                    <p className='subtitle gradientText'>Streamlined Information Architecture with Simplicity</p>
+                    <p>Over the course of design iterations, it became evident that simplicity is key when dealing with complex information architecture. By implementing a robust design system, leveraging typography, and employing strategic color usage, it's possible to effectively distinguish various sets of information, ensuring clarity and user-friendliness.</p>
                 </div>
                 <div className='bulletPoints'>
-                    <p className='subtitle gradientText'>User Retention: The right amount of fun</p>
-                    <p>From initial user feedback, I learn that even when it looks good, it's not "fun" for users. Therefore, I implemented two features that provide some game elements in the app: the profile badges and the popular in your area section.</p>
+                    <p className='subtitle gradientText'>Enhanced User Retention and Engagement</p>
+                    <p>Initial user feedback revealed that aesthetics alone don't guarantee an enjoyable experience. Hence, I introduced two engaging elements into the app—profile badges and the "popular in your area" section—infusing elements of gamification to enhance user retention and keep the platform both visually appealing and entertaining.</p>
                 </div>
             </div>
             <div className='prevNext'>
                 <Link className='subtitle' role="button" to="/work/whoami"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }} />Whoami Today</Link>
-                <Link className='subtitle' role="button" to="/work/voteally">Voteally <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }} /></Link>
+                <Link className='subtitle' role="button" to="/work/innaorganic">Inna Organic <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }} /></Link>
             </div>
         </div>
     )
