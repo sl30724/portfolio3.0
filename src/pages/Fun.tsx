@@ -6,7 +6,7 @@ export default function Fun() {
             <div className="background">
             </div>
             <div className='content'>
-                <div className='headline'>
+                <div className='headline' id='center'>
                     <h1 className='gradientText'>Fun</h1>
                     <p>These front-end projects encapsulate my passion for turning designs into living, breathing realities. My love for continuous learning has recently led me to delve into the realm of 3D interaction web experiences, where I've harnessed the power of Unity, Three.js, and WebGL to create awe-inspiring digital landscapes.</p>
                 </div>

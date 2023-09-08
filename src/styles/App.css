@@ -161,6 +161,13 @@ footer {
   max-width: 95%;
 }
 
+#center {
+  align-items: center;
+  margin-bottom: 0;
+  text-align: center;
+  /* max-width: 80%; */
+}
+
 .projectCard {
   display: flex;
   flex-direction: column;
