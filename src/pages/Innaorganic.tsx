@@ -162,7 +162,7 @@ export default function Innaorganic() {
             </div>
             <div className='prevNext'>
                 <Link className='subtitle' role="button" to="/work/craigslist"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }} />Craigslist</Link>
-                <Link className='subtitle' role="button" to="/work/sbs">Street Business School <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }} /></Link>
+                <Link className='subtitle' role="button" to="/work/sbs">Accessibility for SBS <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }} /></Link>
             </div>
         </div>
     )

@@ -146,7 +146,7 @@ export default function Sbs() {
                 </p>
             </div>
             <div className='prevNext'>
-            <Link className='subtitle' role="button" to="/work/voteally"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }}/>Voteally</Link>
+            <Link className='subtitle' role="button" to="/work/innaorganic"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }}/> Inna Organic</Link>
             <Link className='subtitle' role="button" to="/work/Whoami">Whoami Today <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }}/></Link>
             </div>
         </div>

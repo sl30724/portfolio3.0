@@ -57,7 +57,7 @@ export default function Craigslist() {
                 </div>
             </div>
             <div className='projectImg'>
-                <video autoPlay muted loop>
+                <video autoPlay muted loop playsInline>
                     <source src="/vids/cr_oldNew.mp4" type="video/mp4" />
                 </video>
             </div>
@@ -160,7 +160,7 @@ export default function Craigslist() {
             <div className='projectContent'>
                 <div className='feature'>
                     <div className='projectImg'>
-                        <video autoPlay muted loop>
+                        <video autoPlay muted loop playsInline>
                             <source src="/vids/cr_home.mp4" type="video/mp4" />
                         </video>
                     </div>
@@ -177,7 +177,7 @@ export default function Craigslist() {
                 </div>
                 <div className='feature' id='reverse'>
                     <div className='projectImg'>
-                        <video autoPlay muted loop>
+                        <video autoPlay muted loop playsInline>
                             <source src="/vids/cr_search.mp4" type="video/mp4" />
                         </video>
                     </div>
@@ -194,7 +194,7 @@ export default function Craigslist() {
                 </div>
                 <div className='feature'>
                     <div className='projectImg'>
-                        <video autoPlay muted loop>
+                        <video autoPlay muted loop playsInline>
                             <source src="/vids/cr_safetyMode.mp4" type="video/mp4" />
                         </video>
                     </div>
@@ -210,7 +210,7 @@ export default function Craigslist() {
                 </div>
                 <div className='feature' id='reverse'>
                     <div className='projectImg'>
-                        <video autoPlay muted loop>
+                        <video autoPlay muted loop playsInline>
                             <source src="/vids/cr_message.mp4" type="video/mp4" />
                         </video>
                     </div>
