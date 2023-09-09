@@ -45,7 +45,7 @@ export default function Whoami() {
                     I joined WhoAmi Today as the second designer on the design team. I work closely with seven developers and two product managers. My job includes establishing and expanding desgin systems, defining features based on research insights, making lofi and hifi wireframes, improving the user flow, and creating interaction design. We're aiming to launch the first version of Whoami by the end of August. Please come back then to check out more project details.
                 </p>
             </div>
-            <div className='projectImg'>
+            <div className='projectImg' id='whoami_cover'>
                 <Zoom>
                     <img src="/pics/who/Who_cover.png" alt="Whoami cover" />
                 </Zoom>

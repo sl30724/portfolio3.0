@@ -43,6 +43,10 @@
     background-color: var(--green);
 }
 
+#whoami_cover {
+    background-color: var(--grey);
+}
+
 .projectOverview img {
     display: flex;
     width: 100%;
