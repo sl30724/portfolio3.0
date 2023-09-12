@@ -7,7 +7,7 @@ export default function About() {
         <div className="background">
         </div>
         <div className="content">
-            <div className='headline'>
+            <div className='headline' id="center">
                 <h1 className='gradientText'>I'm Sandy.</h1>
             </div>
             <div className="bio">
