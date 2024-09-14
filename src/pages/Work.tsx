@@ -9,7 +9,7 @@ export default function Work() {
             <div className='content'>
                 <div className='headline'>
                     <h1 className='gradientText'>Sandy crafts digital products that resonate.</h1>
-                    <p>I’m a Product Designer (UI/UX) and a moonlighting UI Developer. Over the past 2+ years, I’ve helped startups and established companies create joyful, engaging, and impactful digital products & experiences that resonate with their diverse audiences.
+                    <p>I’m a Product Designer (UI/UX) and a moonlighting UI Developer. Over the past 4+ years, I’ve helped startups and established companies create joyful, engaging, and impactful digital products & experiences that resonate with their diverse audiences.
                     </p>
                     <div className='buttons'>
                         <Link className='primaryBut small' role="button" to="/about">Learn About Me</Link>
