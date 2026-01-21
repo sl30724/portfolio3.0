@@ -3,7 +3,6 @@ import '../styles/Zoom.css';
 import Zoom from 'react-medium-image-zoom';
 import { Icon } from '@iconify-icon/react';
 import { Link } from "react-router-dom";
-import CollapseCom from '../components/CollapseCom';
 
 export default function Innaorganic() {
 
