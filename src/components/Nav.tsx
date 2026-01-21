@@ -64,7 +64,7 @@ export default function Nav() {
                     <NavLink to="/fun" className={"subtitle navLink"}>
                         Fun
                     </NavLink>
-                    <a className="subtitle navLink" href="/resume.pdf" target="_blank">Resume <Icon icon="radix-icons:open-in-new-window" style={{ fontSize: '13px' }} /></a>
+                    <a className="subtitle navLink" href="/Sandy_Lee_resume.pdf" target="_blank">Resume <Icon icon="radix-icons:open-in-new-window" style={{ fontSize: '13px' }} /></a>
                 </nav>
                 {/* <MobileNav /> */}
             </header>

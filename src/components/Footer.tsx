@@ -3,7 +3,7 @@ export default function Footer() {
     return (
         <footer>
             <div className='footer'>
-                <p className='small'>© 2023 Sandy Lee | Built with Figma, React, and Coffee</p>
+                <p className='small'>© 2025 Sandy Lee | Built with Figma, React, and Coffee</p>
                 <div className='footerNav'>
                     <div className='footerNavCol'>
                         <h5 className='gradientText'>Elsewhere</h5>
@@ -16,7 +16,7 @@ export default function Footer() {
                         <h5 className='gradientText'>Contact</h5>
                         <ul>
                             <li><a className='subtitle' href='https://www.linkedin.com/in/meihsuan-lee/' target='_blank' rel='noreferrer'>LinkedIn</a></li>
-                            <li><a className='subtitle' href='mailto:work@sandylee.site?bcc=sl30724@gmail.com' target='_blank' rel='noreferrer'>Email</a></li>
+                            <li><a className='subtitle' href='mailto:sandylee.product@gmail.com?bcc=sl30724@gmail.com' target='_blank' rel='noreferrer'>Email</a></li>
                         </ul>
                     </div>
                 </div>
