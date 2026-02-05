@@ -21,7 +21,14 @@ export default function Work() {
                     <h2 className='gradientText'>Featured Projects.</h2>
                     <p>A curated collection of my recent projects, featuring real-world client collaborations, personal case studies, and ongoing endeavors.</p>
                     </div>
-                        
+                    <ProjectCard
+                        id='PAT'
+                        type='Product Design (UI/UX) • Web • 2024'
+                        name="Scaling a legacy tool into a sustainable and user-friendly platform"
+                        description="Led UX strategy, MUI design system adoption, and delivery planning under tight budget and timeline constraints."
+                        pic='/pics/PAT.png'
+                        link='/work/PAT'
+                        background='grey' />
                     <ProjectCard
                         id='project3'
                         type='Product Design (UI/UX) • Mobile App • 2023'
