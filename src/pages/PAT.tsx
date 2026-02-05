@@ -45,7 +45,7 @@ export default function PAT() {
             <div className='rows'>
                 <div className='projectContentRow'>
                     <h4 className='gradientText'>Overview</h4>
-                   <p>
+                    <p>
                         Procurement Analysis Tool (PAT) is the only platform that helps businesses and local governments{" "}
                         <span style={{ color: "var(--primary)", fontWeight: 500 }}>
                             evaluate utility-scale renewable energy procurement
@@ -76,28 +76,28 @@ export default function PAT() {
                     <p>
                         <ul>
                             <li>
-                                <span style={{ color: "var(--primary)", fontWeight: 500}}>
+                                <span style={{ color: "var(--primary)", fontWeight: 500 }}>
                                     Launched on schedule
                                 </span>{" "}
                                 despite migrating to a new development environment and adopting Material UI for the first time
                             </li>
                             <li>
-                                <span style={{ color: "var(--primary)", fontWeight: 500}}>96%</span>{" "}
+                                <span style={{ color: "var(--primary)", fontWeight: 500 }}>96%</span>{" "}
                                 of new users reported they would start using the tool immediately after the prototype demo
                             </li>
                             <li>
-                                <span style={{ color: "var(--primary)", fontWeight: 500}}>94%</span>{" "}
+                                <span style={{ color: "var(--primary)", fontWeight: 500 }}>94%</span>{" "}
                                 retention of existing users post migration launch
                             </li>
                             <li>
                                 Secured continued funding, with leadership committing to a{" "}
-                                <span style={{ color: "var(--primary)", fontWeight: 500}}>
+                                <span style={{ color: "var(--primary)", fontWeight: 500 }}>
                                     long-term budget for ongoing UX support
                                 </span>{" "}
                                 despite administration changes
                             </li>
                             <li>
-                                <span style={{ color: "var(--primary)", fontWeight: 500}}>
+                                <span style={{ color: "var(--primary)", fontWeight: 500 }}>
                                     Material UI design system adopted as the UX team standard
                                 </span>
                                 , reducing future design and development overhead across projects
@@ -105,98 +105,118 @@ export default function PAT() {
                 </div>
             </div>
             <div className='projectImg'>
-                <video autoPlay muted loop playsInline>
-                    <source src="/vids/cr_oldNew.mp4" type="video/mp4" />
-                </video>
-            </div>
-                <div className='projectContent'>
-                    <h4 className='gradientText'>Focusing on Users</h4>
-                    <p>Embracing a user-centered approach, I crafted a compelling User Persona and a thorough Emotional Journey Map. These strategic tools crystallized users' motivations, concerns, feelings, and goals, guiding me in identifying pain points and opportunities for transformation.</p>
-                    <div className='imgGallery'>
-                        <div className='projectImg' id='cr-persona'>
-                            <Zoom>
-                                <img src="/pics/cr/Cr_userPersona.png" alt="Craigslist User Persona" />
-                            </Zoom>
-                            <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> User Persona</p>
-                        </div>
-                        <div className='projectImg' id='cr-journey'>
-                            <Zoom>
-                                <img src="/pics/cr/Cr_userMap.png" alt="Craigslist user journey map" />
-                            </Zoom>
-                            <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> User Emotional Journey</p>
-                        </div>
-                    </div>
-                </div>
-                <div className='projectContent'>
-                    <h4 className='gradientText'>Designing for Purpose</h4>
-                    <p>With a clearer view of users' experiences, I distilled the Job to Be Done, a concise guiding principle steering the project. This served as a compass, ensuring that every design decision would harmoniously align with the overarching objective.</p>
-                    <div className='projectImg'>
-                        <Zoom>
-                            <img src="/pics/cr/Cr_jtbd.png" alt="Craigslist job to be done" />
-                        </Zoom>
-                        <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Job To Be Done</p>
-                    </div>
-                </div>
-                <div className='projectContent'>
-                    <h4 className='gradientText'>Crafting the Solution</h4>
-                    <p>With purpose as my guide, I mapped out an enhanced User Journey. Enriched with redesigned elements and new features that aligned with users' needs, this map showcased how each innovation contributed to a more enriched and satisfying experience.
-                        <br />
-                        <br />Moreover, I crafted design strategies for each function based on psychological principles, ensuring each feature resonated on a psychological level. This not only bolstered usability but also engaged users on a deeper level.
-                    </p>
-                    <div className='imgGallery'>
-                        <div className='projectImg' id='cr-improvedMap'>
-                            <Zoom>
-                                <img src="/pics/cr/Cr_improvedMap.png" alt="Craigslist improved user journey map" />
-                            </Zoom>
-                            <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Improved Journey Map</p>
-                        </div>
-                        <div className='projectImg' id='cr-strategies'>
-                            <Zoom>
-                                <img src="/pics/cr/Cr_featureDetails.png" alt="Craigslist feature details" />
-                            </Zoom>
-                            <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Design Strategies</p>
-                        </div>
-                    </div>
-                </div>
-            <div className='projectContent'>
-                <h4 className='gradientText'>Evolving Design System</h4>
-                <p>Respecting the familiarity of Craigslist's design identity, I carefully expanded the Design System. This gentle transformation encompassed expanding font sets and color systems, ensuring a fresh but recognizable visual narrative.
+                <Zoom>
+                    <img src="/pics/PAT/Home.png" alt="PAT Home Page before and after migration" />
+                </Zoom>
+                <p className='imgCaption caption'>
+                    <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> PAT Home Page before and after migration
                 </p>
-                <div className='projectImg'>
-                    <Zoom>
-                        <img src="/pics/cr/Cr_designSystem.png" alt="Craigslist improved design system" />
-                    </Zoom>
-                    <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Evolved Design System</p>
-                </div>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>Ideations for Home</h4>
-                <p>The evolution of the new home page unfolded through three iterations. Rooted in the quest to optimize user interactions, the redesigned home page embraced a dual purpose: simplifying the intricate information architecture and minimizing user actions to discover desired categories.
-                    <br />
-                    <br />
+                <h4 className='gradientText'>Stakeholder alignment & UX ownership</h4>
+                <p>
+                    As the first product/UX person involved in the project, I focused on aligning expectations before introducing
+                    design solutions. Since UX had not previously been embedded in PAT’s development process, my goal was to clarify{" "}
+                    <span style={{ color: "var(--primary)", fontWeight: 500 }}>
+                        how UX would contribute, where design decisions would be owned, and how collaboration would work
+                    </span>
+                    —reducing the risk of role confusion during a time-sensitive migration.
+                    <br /><br />
+                    I conducted an internal stakeholder interview with the project owner to understand:
                     <ul>
-                        <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Version 1:</span> included images within category components, intending to leverage visual cues for users' navigation.</li>
-                        <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Version 2:</span> focused on text-based elements, embracing the power of simplicity.</li>
+                        <li>UX’s role in project success and product decision-making</li>
+                        <li>Expected level of UX input on design and direction</li>
+                        <li>Risks or uncertainties around introducing UX for the first time</li>
+                        <li>How user feedback would be gathered post-migration and UX’s role in iteration</li>
                     </ul>
                     <br />
-                    Guided by invaluable insights garnered from initial user testing of the first two versions, <span style={{ color: "var(--primary)", fontWeight: 500 }}>Version 3</span> emerged. Building upon the foundation of Version 2, this iteration integrated the "popular categories in your area" feature. By providing social proof, this addition was intended to increase user engagement.
+                    This alignment established trust early and created clear decision-making boundaries for both migration and future product improvements.
                 </p>
                 <div className='projectImg'>
                     <Zoom>
-                        <img src="/pics/cr/Cr_ideations.png" alt="Ideations: Home" />
+                        <img src="/pics/PAT/StakeholderInterview.png" alt="Stakeholder alignment artifacts" />
                     </Zoom>
-                    <p className='caption imgCaption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Design Iterations: Home</p>
+                    <p className='imgCaption caption'>
+                        <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Stakeholder interview FigJam
+                    </p>
                 </div>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>User Feedback Validation</h4>
-                <p>After creating the lo-fi wireframes, I conducted feedback sessions with five individuals who had actively used the Craigslist mobile app within the past year. Their insights and perspectives played a pivotal role in refining the lo-fi wireframes and ultimately shaping the final design.
+                <h4 className='gradientText'>Problem framing &amp; research</h4>
+                <p>
+                    With ownership and collaboration expectations set, I moved into problem framing and research. I defined a clear
+                    problem statement to align the team on{" "}
+                    <span style={{ color: "var(--primary)", fontWeight: 500 }}>
+                        primary user groups, the core problem being solved, and success criteria
+                    </span>
+                    .
+                    <br /><br />
+                    Using this framing—along with existing qualitative user feedback—I created lightweight personas and mapped current user
+                    flows to identify friction points that could be addressed without disrupting established usage patterns.
+                    <br /><br />
+                    Given timeline constraints, we conducted a small usability study. I synthesized findings into an{" "}
+                    <span style={{ color: "var(--primary)", fontWeight: 500 }}>
+                        impact vs. effort matrix
+                    </span>
+                    , which became the primary tool for prioritizing UX work during migration and balancing usability gains with delivery risk.
+                </p>
+                <div className='projectImg' id='cr-journey'>
+                    <Zoom>
+                        <img src="/pics/PAT/UXR.png" alt="PAT's personas and user flow" />
+                    </Zoom>
+                    <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Problem statement and personas</p>
+                </div>
+            </div>
+            <div className='projectContent'>
+                <h4 className='gradientText'>Budget and timeline</h4>
+                <p>
+                    Using the impact/effort matrix, I defined a UX scope focused on improvements that would meaningfully improve usability{" "}
+                    <span style={{ color: "var(--primary)", fontWeight: 500 }}>
+                        without increasing delivery risk
+                    </span>
+                    . I translated this scope into a UX budget and timeline using a template I created, then broke the work into Jira epics,
+                    stories, and tasks.
+                    <br /><br />
+                    I reviewed the plan with developers to validate feasibility and add buffer for risk. Despite adopting Material UI for the
+                    first time, the team launched on schedule—demonstrating that upfront UX planning reduced downstream friction.
                 </p>
                 <div className='projectImg'>
                     <Zoom>
-                        <img src="/pics/cr/Cr_userFeedback.png" alt="user feedback" />
+                        <img src="/pics/PAT/ImpactMatrix.png" alt="PAT's impact vs effort matrix" />
                     </Zoom>
-                    <p className='caption imgCaption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} />Initial User Feedback</p>
+                    <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Impact vs Effort Matrix</p>
+                </div>
+            </div>
+            <div className='projectContent'>
+                <h4 className='gradientText'>Design strategy</h4>
+                <p>
+                    Because PAT has an existing loyal user base, I intentionally avoided large interaction or navigation changes that could
+                    disrupt existing workflows. Since users had not reported issues with primary navigation or core flows, I preserved them and
+                    focused on:
+                    <br /><br />
+                    <ul>
+                        <li>Replacing legacy UI with <span style={{ color: "var(--primary)", fontWeight: 500 }}>consistent MUI components</span></li>
+                        <li>Improving <span style={{ color: "var(--primary)", fontWeight: 500 }}>information architecture</span> within pages</li>
+                        <li>Addressing <span style={{ color: "var(--primary)", fontWeight: 500 }}>high-impact usability issues</span> </li>
+                        <li>Clarifying <span style={{ color: "var(--primary)", fontWeight: 500 }}>content and labeling</span> to reduce cognitive load</li>
+                    </ul>
+                    <br />
+                    This approach minimized user relearning while modernizing the interface and establishing a scalable design foundation for
+                    future development.
+                </p>
+                <div className='imgGallery'>
+                    <div className='projectImg' id='cr-improvedMap'>
+                        <Zoom>
+                            <img src="/pics/cr/Cr_improvedMap.png" alt="Craigslist improved user journey map" />
+                        </Zoom>
+                        <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Improved Journey Map</p>
+                    </div>
+                    <div className='projectImg' id='cr-strategies'>
+                        <Zoom>
+                            <img src="/pics/cr/Cr_featureDetails.png" alt="Craigslist feature details" />
+                        </Zoom>
+                        <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Design Strategies</p>
+                    </div>
                 </div>
             </div>
             <div className='projectContent'>
@@ -273,8 +293,8 @@ export default function PAT() {
                 </div>
             </div>
             <div className='projectImg'>
-                        <img src="/pics/cr/Cr_new.png" alt="Final designs" />
-                </div>
+                <img src="/pics/cr/Cr_new.png" alt="Final designs" />
+            </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Takeaways</h4>
                 <div className='bulletPoints'>
