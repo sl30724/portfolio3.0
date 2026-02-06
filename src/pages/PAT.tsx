@@ -33,7 +33,6 @@ export default function PAT() {
                             <li>Impact-vs-effort matrix</li>
                             <li>Personas</li>
                             <li>User flow</li>
-                            <li>MUI design system</li>
                             <li>Hi-fi prototype</li>
                         </ul>
                     </div>
@@ -160,7 +159,7 @@ export default function PAT() {
                     </span>
                     , which became the primary tool for prioritizing UX work during migration and balancing usability gains with delivery risk.
                 </p>
-                <div className='projectImg' id='cr-journey'>
+                <div className='projectImg' id='PAT-UXR'>
                     <Zoom>
                         <img src="/pics/PAT/UXR.png" alt="PAT's personas and user flow" />
                     </Zoom>
@@ -204,106 +203,55 @@ export default function PAT() {
                     This approach minimized user relearning while modernizing the interface and establishing a scalable design foundation for
                     future development.
                 </p>
-                <div className='imgGallery'>
-                    <div className='projectImg' id='cr-improvedMap'>
-                        <Zoom>
-                            <img src="/pics/cr/Cr_improvedMap.png" alt="Craigslist improved user journey map" />
-                        </Zoom>
-                        <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Improved Journey Map</p>
-                    </div>
-                    <div className='projectImg' id='cr-strategies'>
-                        <Zoom>
-                            <img src="/pics/cr/Cr_featureDetails.png" alt="Craigslist feature details" />
-                        </Zoom>
-                        <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Design Strategies</p>
-                    </div>
+                <div className='projectImg' id='PAT-MUI'>
+                    <Zoom>
+                        <img src="/pics/PAT/MUI.png" alt="NREL-themed MUI Design System" />
+                    </Zoom>
+                    <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> NREL-themed MUI Design System</p>
                 </div>
             </div>
             <div className='projectContent'>
-                <h4 className='gradientText'>Final Design</h4>
-                <p>Based on valuable user research insights and user feedback, I designed 13+ screens for 4 key features, including the revamped Home page, streamlined Search function, innovative Safety Mode, and user-friendly In-App Messages system, crafting a seamless and resonant user experience.</p>
-            </div>
-            <div className='projectContent'>
-                <div className='feature'>
-                    <div className='projectImg'>
-                        <video autoPlay muted loop playsInline>
-                            <source src="/vids/cr_home.mp4" type="video/mp4" />
-                        </video>
-                    </div>
-                    <div className='featureContent'>
-                        <h5 className='gradientText'>Revamped Home Page</h5>
-                        <p>
-                            <ul>
-                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Highlighted Search Bar:</span> drew users' attention to the most used function in Craigslist.</li>
-                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Two-way Scrolling Categories:</span> reduced the number of user actions needed to find the desired categories.</li>
-                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Popular in Your Area:</span> presented social proof and just the right amount of fun.</li>
-                            </ul>
-                        </p>
-                    </div>
+                <h4 className='gradientText'>What shipped</h4>
+                <p>
+                    A modernized PAT UI built on Material UI components, improved page-level information structure, reduced cognitive load through clearer
+                    content and labeling, and a reusable design system foundation that scales across future enhancements.
+                </p>
+                <div className='projectImg' id='PAT-Filters'>
+                    <Zoom>
+                        <img src="/pics/PAT/Filters.png" alt="PAT Filters Page before and after" />
+                    </Zoom>
+                    <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Improved Filters Page</p>
                 </div>
-                <div className='feature' id='reverse'>
-                    <div className='projectImg'>
-                        <video autoPlay muted loop playsInline>
-                            <source src="/vids/cr_search.mp4" type="video/mp4" />
-                        </video>
-                    </div>
-                    <div className='featureContent'>
-                        <h5 className='gradientText'>Streamlined Search</h5>
-                        <p>
-                            <ul>
-                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Navigational Back Button:</span> provided users with the reassuarance that they can easily go back and correct errors.</li>
-                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Constantly Visible Search Bar:</span> increased accessibility, efficiency, and consistency throughout users' search journey.</li>
-                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Applying Design System:</span> included color depth and typography system to create a clearer information structure.</li>
-                            </ul>
-                        </p>
-                    </div>
+                <div className='projectImg' id='PAT-procurement'>
+                    <Zoom>
+                        <img src="/pics/PAT/Procurement.png" alt="PAT Procurement Page before and after" />
+                    </Zoom>
+                    <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Improved Procurement Page</p>
                 </div>
-                <div className='feature'>
-                    <div className='projectImg'>
-                        <video autoPlay muted loop playsInline>
-                            <source src="/vids/cr_safetyMode.mp4" type="video/mp4" />
-                        </video>
-                    </div>
-                    <div className='featureContent'>
-                        <h5 className='gradientText'>Innovative Safety Mode</h5>
-                        <p>
-                            <ul>
-                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Fixed Floating Button:</span> allowed users to turn on and off safety mode anytime.</li>
-                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Safety-first Settings:</span> empowered users with system settings that prioritize safety, including on-site messages only and public meeting place suggestions.</li>
-                            </ul>
-                        </p>
-                    </div>
+
+                <div className='projectImg' id='PAT-Resource'>
+                    <Zoom>
+                        <img src="/pics/PAT/Resource.png" alt="PAT Resource Page before and after" />
+                    </Zoom>
+                    <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Improved Resource Page</p>
                 </div>
-                <div className='feature' id='reverse'>
-                    <div className='projectImg'>
-                        <video autoPlay muted loop playsInline>
-                            <source src="/vids/cr_message.mp4" type="video/mp4" />
-                        </video>
-                    </div>
-                    <div className='featureContent'>
-                        <h5 className='gradientText'>User-friendly Message System</h5>
-                        <p>
-                            <ul>
-                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Categorized Conversations:</span> streamlined users' navigation within a complex message system with various use cases, including buying, selling, and unread.</li>
-                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Premade message templates:</span> increased users' confidence by lowering the effort and time to compose the first message.</li>
-                                <li><span style={{ color: "var(--primary)", fontWeight: 500 }}>Verified User Profile:</span> boosted trust between members with user name, verified status, badges of accomplishments, and last online time.</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div className='projectImg'>
-                <img src="/pics/cr/Cr_new.png" alt="Final designs" />
             </div>
             <div className='projectContent'>
                 <h4 className='gradientText'>Takeaways</h4>
                 <div className='bulletPoints'>
-                    <p className='subtitle gradientText'>Streamlined Information Architecture with Simplicity</p>
-                    <p>Over the course of design iterations, it became evident that simplicity is key when dealing with complex information architecture. By implementing a robust design system, leveraging typography, and employing strategic color usage, it's possible to effectively distinguish various sets of information, ensuring clarity and user-friendliness.</p>
+                    <p className='subtitle gradientText'>Clarity first, change second</p>
+                    <p>
+                        When a tool has a loyal user base, “better” isn’t always “different.” Preserving core workflows while improving page-level
+                        structure and content reduced relearning and protected adoption during migration.
+                    </p>
                 </div>
+
                 <div className='bulletPoints'>
-                    <p className='subtitle gradientText'>Enhanced User Retention and Engagement</p>
-                    <p>Initial user feedback revealed that aesthetics alone don't guarantee an enjoyable experience. Hence, I introduced two engaging elements into the app—profile badges and the "popular in your area" section—infusing elements of gamification to enhance user retention and keep the platform both visually appealing and entertaining.</p>
+                    <p className='subtitle gradientText'>Upfront planning reduces downstream risk</p>
+                    <p>
+                        Translating research insights into an impact/effort matrix, then into a scoped timeline and Jira breakdown, kept UX work
+                        realistic and made it easier for engineering to estimate, sequence, and deliver.
+                    </p>
                 </div>
             </div>
             <div className='prevNext'>
