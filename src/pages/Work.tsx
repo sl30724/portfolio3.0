@@ -34,7 +34,7 @@ export default function Work() {
                         type='UX Research & Product Design • Web • 2025'
                         name="Improving usability for a multi-sided, policy-driven platform"
                         description="Led UX research and design across states, local agencies, and solar developers to prepare a community solar platform for scale."
-                        pic='/pics/connector/cover.png'
+                        pic='/pics/connector/Cover.png'
                         link='/work/Connector'
                         background='green' />
                     <ProjectCard
