@@ -46,7 +46,7 @@ export default function Connector() {
 
             {/* Cover / hero */}
             <div className='projectOverview' id='connector_overview'>
-                <img src="/pics/Connector/Cover.png" alt="Energy Connector project cover" />
+                <img src="/pics/connector/Cover.png" alt="Energy Connector project cover" />
             </div>
 
             {/* Overview / Challenge / Results */}
@@ -133,7 +133,7 @@ export default function Connector() {
 
                     <div className='projectImg'>
                         <Zoom>
-                            <img src="/pics/Connector/UserGoals.png" alt="Connector user goals" />
+                            <img src="/pics/connector/UserGoals.png" alt="Connector user goals" />
                         </Zoom>
                         <p className='imgCaption caption'>
                             <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> User groups &amp; primary goals
@@ -161,7 +161,7 @@ export default function Connector() {
 
                     <div className='projectImg'>
                         <Zoom>
-                            <img src="/pics/Connector/ResearchObjectives.png" alt="Research objectives" />
+                            <img src="/pics/connector/ResearchObjectives.png" alt="Research objectives" />
                         </Zoom>
                         <p className='imgCaption caption'>
                             <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Research objectives
@@ -223,7 +223,7 @@ export default function Connector() {
 
                 <div className='projectImg'>
                     <Zoom>
-                        <img src="/pics/Connector/Implications.png" alt="Research implications artifact" />
+                        <img src="/pics/connector/Implications.png" alt="Research implications artifact" />
                     </Zoom>
                     <p className='imgCaption caption'>
                         <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> From findings to design implications
@@ -239,7 +239,7 @@ export default function Connector() {
                     <h5 className='gradientText'>Projects page</h5>
                     <div className='projectImg'>
                         <Zoom>
-                            <img src="/pics/Connector/Projects.png" alt="Projects page improvements" />
+                            <img src="/pics/connector/Projects.png" alt="Projects page improvements" />
                         </Zoom>
                         <p className='imgCaption caption'>
                             <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Projects page
@@ -268,7 +268,7 @@ export default function Connector() {
                     <h5 className='gradientText'>Subscription managers page</h5>
                     <div className='projectImg'>
                         <Zoom>
-                            <img src="/pics/Connector/SubscriptionManagers.png" alt="Subscription managers table improvements" />
+                            <img src="/pics/connector/SubscriptionManagers.png" alt="Subscription managers table improvements" />
                         </Zoom>
                         <p className='imgCaption caption'>
                             <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Subscription managers page
@@ -297,7 +297,7 @@ export default function Connector() {
                     <h5 className='gradientText'>Project details page</h5>
                     <div className='projectImg'>
                         <Zoom>
-                            <img src="/pics/Connector/ProjectDetails.png" alt="Project details page improvements" />
+                            <img src="/pics/connector/ProjectDetails.png" alt="Project details page improvements" />
                         </Zoom>
                         <p className='imgCaption caption'>
                             <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Project details page
@@ -328,7 +328,7 @@ export default function Connector() {
                     <h5 className='gradientText'>Public pages</h5>
                     <div className='projectImg'>
                         <Zoom>
-                            <img src="/pics/Connector/PublicPages.png" alt="Public pages improvements" />
+                            <img src="/pics/connector/PublicPages.png" alt="Public pages improvements" />
                         </Zoom>
                         <p className='imgCaption caption'>
                             <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Public pages
