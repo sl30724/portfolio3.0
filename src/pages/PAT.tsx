@@ -255,8 +255,8 @@ export default function PAT() {
                 </div>
             </div>
             <div className='prevNext'>
-                <Link className='subtitle' role="button" to="/work/whoami"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }} />Whoami Today</Link>
-                <Link className='subtitle' role="button" to="/work/innaorganic">Inna Organic <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }} /></Link>
+                <Link className='subtitle' role="button" to="/work/new"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }} />New</Link>
+                <Link className='subtitle' role="button" to="/work/Connector">Connector <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }} /></Link>
             </div>
         </div>
     )

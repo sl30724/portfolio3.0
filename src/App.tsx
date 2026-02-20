@@ -12,6 +12,7 @@ import Craigslist from './pages/Craigslist';
 import Whoami from './pages/Whoami';
 import Innaorganic from "./pages/Innaorganic";
 import PAT from './pages/PAT';
+import Connector from './pages/Connector';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route index element={<Work />} />
             <Route path='/about' element={<About />} />
             <Route path='/fun' element={<Fun />} />
+            <Route path='/work/Connector' element={<Connector />} />
             <Route path='/work/PAT' element={<PAT />} />
             <Route path='/work/sbs' element={<Sbs />} />
             <Route path='/work/voteally' element={<Voteally />} />

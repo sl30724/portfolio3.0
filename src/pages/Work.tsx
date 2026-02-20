@@ -18,20 +18,28 @@ export default function Work() {
 
                 <div className='projects' id='workProjects'>
                     <div className='headline' id='center'>
-                    <h2 className='gradientText'>Featured Projects.</h2>
-                    <p>A curated collection of my recent projects, featuring real-world client collaborations, personal case studies, and ongoing endeavors.</p>
+                        <h2 className='gradientText'>Featured Projects.</h2>
+                        <p>A curated collection of my recent projects, featuring real-world client collaborations, personal case studies, and ongoing endeavors.</p>
                     </div>
                     <ProjectCard
                         id='PAT'
-                        type='Product Design (UI/UX) • Web • 2024'
+                        type='Product Design • Web • 2024'
                         name="Scaling a legacy tool into a sustainable and user-friendly platform"
                         description="Led UX strategy, MUI design system adoption, and delivery planning under tight budget and timeline constraints."
                         pic='/pics/PAT.png'
                         link='/work/PAT'
                         background='grey' />
                     <ProjectCard
+                        id='Connector'
+                        type='UX Research & Product Design • Web • 2025'
+                        name="Improving usability for a multi-sided, policy-driven platform"
+                        description="Led UX research and design across states, local agencies, and solar developers to prepare a community solar platform for scale."
+                        pic='/pics/connector/cover.png'
+                        link='/work/Connector'
+                        background='green' />
+                    <ProjectCard
                         id='project3'
-                        type='Product Design (UI/UX) • Mobile App • 2023'
+                        type='Product Design • Mobile App • 2023'
                         name="Elevating Teens' Experiences on Social Media: WhoAmI Today (In Progress)"
                         description="How might we create a social media that encourages teenagers to forge deeper friendships with their authentic selves? What are some cutting-edge design approaches we unveil from over 200 user surveys and interviews?"
                         pic='/pics/Whoami.png'
@@ -39,7 +47,7 @@ export default function Work() {
                         background='grey' />
                     <ProjectCard
                         id='project3'
-                        type='Product Design (UI/UX)   •   Mobile App   •   2022'
+                        type='Product Design   •   Mobile App   •   2022'
                         name='Designing Safety and Trust on Craigslist'
                         description='How might we address users’ feelings and concerns while navigating through a complex information architecture? Could expanding the existing design system be the key to cleaner interfaces that convey the same simplicity that users already associate Craigslist with?'
                         pic='/pics/Craigslist.png'
