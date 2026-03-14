@@ -80,7 +80,6 @@ export default function Connector() {
                         for a regulated, multi-user system.
                     </p>
                 </div>
-
                 <div className='projectContentRow'>
                     <h4 className='gradientText'>Challenge</h4>
                     <p>
@@ -112,7 +111,14 @@ export default function Connector() {
                     </p>
                 </div>
             </div>
-
+            <div className='projectImg'>
+                <Zoom>
+                    <img src="/pics/Connector/NewConnector.png" alt="New Connector designs" />
+                </Zoom>
+                <p className='imgCaption caption'>
+                    <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> New Connector designs
+                </p>
+            </div>
             {/* Expandable behind-the-scenes */}
             <CollapseCom>
                 <div className='projectContent'>
@@ -345,7 +351,7 @@ export default function Connector() {
                             <li>Clarified responsibilities and expectations before login</li>
                         </ul>
                         <br />
-                        <span style={{ color: "var(--primary)", fontWeight: 500}}>
+                        <span style={{ color: "var(--primary)", fontWeight: 500 }}>
                             Impact:
                         </span>{" "}
                         Set expectations early and supported user self-selection before platform access.

@@ -104,10 +104,10 @@ export default function PAT() {
             </div>
             <div className='projectImg'>
                 <Zoom>
-                    <img src="/pics/PAT/Home.png" alt="PAT Home Page before and after migration" />
+                    <img src="/pics/PAT/NewPAT.png" alt="PATafter migration" />
                 </Zoom>
                 <p className='imgCaption caption'>
-                    <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> PAT Home Page before and after migration
+                    <Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> PAT after migration
                 </p>
             </div>
             <div className='projectContent'>
@@ -215,6 +215,12 @@ export default function PAT() {
                     A modernized PAT UI built on Material UI components, improved page-level information structure, reduced cognitive load through clearer
                     content and labeling, and a reusable design system foundation that scales across future enhancements.
                 </p>
+                <div className='projectImg' id='PAT-Home'>
+                    <Zoom>
+                        <img src="/pics/PAT/Home.png" alt="PAT Home Page before and after" />
+                    </Zoom>
+                    <p className='imgCaption caption'><Icon icon='mdi:arrow-drop-up' style={{ fontSize: '26px' }} /> Improved Filters Page</p>
+                </div>
                 <div className='projectImg' id='PAT-Filters'>
                     <Zoom>
                         <img src="/pics/PAT/Filters.png" alt="PAT Filters Page before and after" />
