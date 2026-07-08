@@ -9,7 +9,7 @@ export default function Work() {
             <div className='content'>
                 <div className='headline'>
                     <h1 className='gradientText'>Sandy makes complex products feel simple.</h1>
-                    <p>I'm a Product Designer who’s led end-to-end design across 6+ platforms—blending UX, research, and product thinking to turn messy, data-heavy problems into tools people actually understand and use.
+                    <p>I'm a Product Designer who's led end-to-end design across 6+ platforms — blending UX, research, and product thinking to turn messy, data-heavy problems into tools people actually understand and use. Currently based in Taipei, Taiwan.
                     </p>
                     <div className='buttons'>
                         <Link className='primaryBut small' role="button" to="/about">Learn About Me</Link>

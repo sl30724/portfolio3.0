@@ -149,9 +149,9 @@ footer {
 .headline {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  max-width: 60%;
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
   min-width: 300px;
   gap: 16px;
   margin-bottom: 5%;

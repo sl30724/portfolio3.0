@@ -15,8 +15,8 @@ export default function About() {
                         <img src="/pics/Profile.png" alt="Sandy Lee" />
                     </div> */}
                     <div className="bioText">
-                        <h3 className="gradientText">I’m a Product Designer based in Taipei, Taiwan.</h3>
-                        <p> I enjoy turning complex, messy problems into intuitive and appealing experiences that just make sense. Over the past few years, I’ve led end-to-end design across 6+ platforms – working on data-heavy tools used by researchers, policymakers, and cross-functional teams. My work sits at the intersection of UX design, research, and product thinking, where I focus on making complex systems feel clear, intuitive, and genuinely useful.
+                        <h3 className="gradientText">I’m a Product Designer currently based in Taipei, Taiwan.</h3>
+                        <p> I enjoy turning complex, messy problems into seamless and visually-appealing experiences that just make sense. Over the past few years, I’ve led end-to-end design across 6+ platforms – working on data-heavy tools used by researchers, policymakers, and cross-functional teams. My work sits at the intersection of UX design, research, and product thinking, where I focus on making complex systems feel clear, intuitive, and genuinely useful.
                             <br />
                             <br />
                             I didn’t start in just one lane. My background spans UX design, front-end development, and marketing  — which means I think beyond the screen and collaborate closely with engineers and product teams to move ideas from concept to shipped product.
