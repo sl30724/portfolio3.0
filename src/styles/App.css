@@ -157,6 +157,10 @@ footer {
   margin-bottom: 5%;
 }
 
+.bio .headline {
+  max-width: 100%;
+}
+
 .headline p {
   max-width: 95%;
 }
@@ -300,7 +304,7 @@ footer {
 
 .bio {
   display: flex;
-  width: 90%;
+  max-width: 900px;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
@@ -327,6 +331,10 @@ footer {
   justify-content: center;
   align-items: left;
   gap: 16px;
+}
+
+.bioText .gradientText {
+  text-align: center;
 }
 
 .itemTitle {

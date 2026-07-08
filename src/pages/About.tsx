@@ -11,21 +11,18 @@ export default function About() {
                     <h1 className='gradientText'>I'm Sandy.</h1>
                 </div>
                 <div className="bio">
-                    <div className="bioPic">
+                    {/* <div className="bioPic">
                         <img src="/pics/Profile.png" alt="Sandy Lee" />
-                    </div>
+                    </div> */}
                     <div className="bioText">
-                        <h3 className="gradientText">I’m a Product Designer who enjoys turning complex, messy problems into visually appealing experiences that just make sense.</h3>
-                        <p>Over the past few years, I’ve led end-to-end design across 6+ platforms—working on data-heavy tools used by researchers, policymakers, and cross-functional teams. My work sits at the intersection of UX, research, and product thinking, where I focus on making complex systems feel clear, intuitive, and genuinely useful.
+                        <h3 className="gradientText">I’m a Product Designer based in Taipei, Taiwan.</h3>
+                        <p> I enjoy turning complex, messy problems into intuitive and appealing experiences that just make sense. Over the past few years, I’ve led end-to-end design across 6+ platforms – working on data-heavy tools used by researchers, policymakers, and cross-functional teams. My work sits at the intersection of UX design, research, and product thinking, where I focus on making complex systems feel clear, intuitive, and genuinely useful.
                             <br />
                             <br />
-                            I didn’t start in just one lane. My background spans UX design, front-end development, and marketing, which helps me think beyond screens—considering how things are built, communicated, and experienced as a whole. It also allows me to collaborate closely with engineers and product teams to move ideas from concept to shipped product.
+                            I didn’t start in just one lane. My background spans UX design, front-end development, and marketing  — which means I think beyond the screen and collaborate closely with engineers and product teams to move ideas from concept to shipped product.
                             <br />
                             <br />
-                            Outside of work, I’m usually running (training for my next race), hiking, skiing, or planning my next trip. I also enjoy product and self-improvement podcasts, the occasional deep dive into design rabbit holes, and way too many cat videos.
-                            <br />
-                            <br />
-                            Lately, I’ve been revisiting old-school Asian dramas (my all-time favorite is Long Vacation) and listening to everything from reggaeton to city pop to ’90s hip hop. One song I always come back to is Candy by Naoko Gushima.
+                            Outside of work, I’m usually running (training for my next race), hiking, skiing, or planning my next trip. I also enjoy product and self-improvement podcasts and the occasional deep dive into design rabbit holes.
                             <br />
                             <br />
                             I also built this site from scratch using React—not because I had to, but because I enjoy understanding how things work end to end.
@@ -37,7 +34,7 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-                <div className="innerContent">
+                <div className="bio">
                     <div className="headline">
                         <h3 className="gradientText">My Definition of Good designs</h3>
                         <p>Designs make the world more beautiful, but good designs go beyond.</p>
