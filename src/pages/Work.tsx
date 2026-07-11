@@ -8,9 +8,11 @@ export default function Work() {
             </div>
             <div className='content'>
                 <div className='headline'>
+                    <p className='overline gradientText'><b>Currently based in Taipei · 中文 / English · Open to senior product & UX roles</b></p>
                     <h1 className='gradientText'>Sandy makes complex products feel simple.</h1>
-                    <p>I'm a Product Designer who's led end-to-end design across 6+ platforms — blending UX, research, and product thinking to turn messy, data-heavy problems into tools people actually understand and use. Currently based in Taipei, Taiwan.
+                    <p>I'm a Product Designer who's led end-to-end design across 6+ platforms — blending UX, research, and product thinking to turn messy, complex, and data-heavy problems into tools people actually understand, use, and love.
                     </p>
+
                     <div className='buttons'>
                         <Link className='primaryBut small' role="button" to="/about">Learn About Me</Link>
                     </div>
@@ -18,12 +20,12 @@ export default function Work() {
 
                 <div className='projects' id='workProjects'>
                     <div className='headline' id='center'>
-                        <h2 className='gradientText'>Featured Projects.</h2>
-                        <p>A curated collection of my recent projects, featuring real-world client collaborations, personal case studies, and ongoing endeavors.</p>
+                        <h2 className='gradientText'>Featured Projects</h2>
+                        <p>End-to-end product and UX work — from research and strategy through shipped, measurable outcomes.</p>
                     </div>
                     <ProjectCard
                         id='PAT'
-                        type='Product Design • Web • 2024'
+                        type='UX Research & Product Design • Web • 2024'
                         name="Scaling a legacy tool into a sustainable and user-friendly platform"
                         description="Led UX strategy, MUI design system adoption, and delivery planning under tight budget and timeline constraints."
                         pic='/pics/PAT.png'
@@ -39,22 +41,6 @@ export default function Work() {
                         background='green' />
                     <ProjectCard
                         id='project3'
-                        type='Product Design • Mobile App • 2023'
-                        name="Elevating Teens' Experiences on Social Media: WhoAmI Today (In Progress)"
-                        description="How might we create a social media that encourages teenagers to forge deeper friendships with their authentic selves? What are some cutting-edge design approaches we unveil from over 200 user surveys and interviews?"
-                        pic='/pics/Whoami.png'
-                        link='/work/whoami'
-                        background='grey' />
-                    <ProjectCard
-                        id='project3'
-                        type='Product Design   •   Mobile App   •   2022'
-                        name='Designing Safety and Trust on Craigslist'
-                        description='How might we address users’ feelings and concerns while navigating through a complex information architecture? Could expanding the existing design system be the key to cleaner interfaces that convey the same simplicity that users already associate Craigslist with?'
-                        pic='/pics/Craigslist.png'
-                        link='/work/craigslist'
-                        background='blue' />
-                    <ProjectCard
-                        id='project3'
                         type='UX Design   •   Website   •   2020'
                         name="Transforming Inna Organic's E-commerce Website"
                         description="As the sole in-house UX Designer within the marketing team, I was tasked with reimagining their e-commerce platform as this thriving Asian organic skincare brand expanded its footprint in the North American market. How might we enhance brand communication across cultural boundaries?"
@@ -63,20 +49,42 @@ export default function Work() {
                         background='green' />
                     {/* <ProjectCard
                         id='project3'
-                        type='Product Design (UI/UX)   •   Mobile App   •   2022 Mar – May'
-                        name='Empowering Voters with VoteAlly'
-                        description="The voters' journey expands beyond the election days. How might we help the individuals seeking to cast well-informed votes be more prepared prior to elections? Could the provision of candidate insights and personalized election reminders hold the key to a more empowering experience?"
-                        pic='/pics/Voteally.png'
-                        link='/work/voteally'
-                        background='pink' /> */}
-                    <ProjectCard
-                        id='project3'
-                        type='UX Research / Accessibility Research   •   Website   •   2022 Oct'
-                        name='Accessibility for Street Business School'
-                        description="Street Business School aims to enhance the accessibility of its website as it embarks on a new phase of growth. How can we leverage accessibility checkers, tools, and heuristic reports to identify prevailing accessibility barriers and transform them into actionable insights?"
-                        pic='/pics/Sbs.png'
-                        link='/work/sbs'
-                        background='orange' />
+                        type='Product Design • Mobile App • 2023'
+                        name="Elevating Teens' Experiences on Social Media: WhoAmI Today (In Progress)"
+                        description="How might we create a social media that encourages teenagers to forge deeper friendships with their authentic selves? What are some cutting-edge design approaches we unveil from over 200 user surveys and interviews?"
+                        pic='/pics/Whoami.png'
+                        link='/work/whoami'
+                        background='grey' /> */}
+
+                </div>
+                <div className='projects'>
+                    <div className='headline' id='center'>
+                        <h2 className='gradientText'>Additional Work</h2>
+                        <p>Personal projects and coursework exploring design beyond client work.</p>
+                    </div>
+                    <div className='additional'>
+                        <ProjectCard
+                            id='additional1'
+                            type='UX Research / UX Design   •   Mobile App   •   2022'
+                            name='Designing Safety and Trust on Craigslist'
+                            pic='/pics/Craigslist.png'
+                            link='/work/craigslist'
+                            background='blue' />
+                        <ProjectCard
+                            id='additional2'
+                            type='UX Research / UX Design   •   Mobile App   •   2022 Mar – May'
+                            name='Empowering Voters with VoteAlly'
+                            pic='/pics/Voteally.png'
+                            link='/work/voteally'
+                            background='pink' />
+                        <ProjectCard
+                            id='additional3'
+                            type='UX Research / Accessibility Research   •   Website   •   2022 Oct'
+                            name='Accessibility for Street Business School'
+                            pic='/pics/Sbs.png'
+                            link='/work/sbs'
+                            background='orange' />
+                    </div>
                 </div>
             </div>
         </>

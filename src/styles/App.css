@@ -255,6 +255,20 @@ footer {
   gap: 64px;
 }
 
+.projects .additional {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+}
+#additional3 img {
+  height: 100%;
+}
+
+.additional .projectCard {
+  flex: 1 0 calc(100%/3 - 20px);
+}
+
 #project1 {
   flex: 1 0 calc(100%/3*1.2 - 20px);
 }
