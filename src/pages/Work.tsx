@@ -14,36 +14,36 @@ export default function Work() {
                     </p>
 
                     <div className='buttons'>
-                        <Link className='primaryBut small' role="button" to="/about">Learn About Me</Link>
+                        <Link className='primaryBut small' role="button" to="/about">Learn about me</Link>
                     </div>
                 </div>
 
                 <div className='projects' id='workProjects'>
                     <div className='headline' id='center'>
-                        <h2 className='gradientText'>Featured Projects</h2>
+                        <h2 className='gradientText'>Featured projects</h2>
                         <p>End-to-end product and UX work — from research and strategy through shipped, measurable outcomes.</p>
                     </div>
                     <ProjectCard
                         id='PAT'
                         type='UX Research & Product Design • Web • 2024'
                         name="Scaling a legacy tool into a sustainable and user-friendly platform"
-                        description="Led UX strategy, UX design, MUI design system adoption, and delivery planning under tight timeline constraints."
+                        description="Led UX strategy, UX design, MUI design system adoption, and delivery planning under tight timeline constraints. 89% of users retained through a full platform migration."
                         pic='/pics/PAT.png'
                         link='/work/PAT'
                         background='grey' />
                     <ProjectCard
                         id='Connector'
                         type='UX Research & Product Design • Web • 2025'
-                        name="Improving usability for a multi-sided, policy-driven platform"
-                        description="Led UX research and design across states, local agencies, and solar developers to prepare a community solar platform for scale."
+                        name="Designing usability for three competing user groups"
+                        description="Led UX research and design across states, local agencies, and solar developers to prepare a community solar platform for scale. Turned research into the prioritized roadmap for the next build phase."
                         pic='/pics/connector/Cover.png'
                         link='/work/Connector'
                         background='green' />
                     <ProjectCard
                         id='project3'
                         type='UX Research & UX Design   •   Web   •   2020'
-                        name="Transforming Inna Organic's E-commerce Website"
-                        description="Led UX research and design as the sole in-house designer, driving the e-commerce redesign for a Taiwanese skincare brand expanding into the North American and ASEAN markets."
+                        name="Redesigning e-commerce for a Taiwanese skincare brand's global expansion"
+                        description="Led UX research and design as the sole in-house designer, driving the e-commerce redesign for a Taiwanese skincare brand expanding into the North American and ASEAN markets. Competitor & UX analysis that informed a cross-market web redesign."
                         pic='/pics/Innaorganic.png'
                         link='/work/innaorganic'
                         background='green' />
@@ -59,21 +59,21 @@ export default function Work() {
                 </div>
                 <div className='projects'>
                     <div className='headline' id='center'>
-                        <h2 className='gradientText'>Additional Work</h2>
+                        <h2 className='gradientText'>Additional work</h2>
                         <p>Personal projects and coursework exploring design beyond client work.</p>
                     </div>
                     <div className='additional'>
                         <ProjectCard
                             id='additional1'
                             type='UX Research / UX Design   •   Mobile App   •   2022'
-                            name='Designing Safety and Trust on Craigslist'
+                            name='Designing safety and trust on Craigslist'
                             pic='/pics/Craigslist.png'
                             link='/work/craigslist'
                             background='blue' />
                         <ProjectCard
                             id='additional2'
                             type='UX Research / UX Design   •   Mobile App   •   2022 Mar – May'
-                            name='Empowering Voters with VoteAlly'
+                            name='Empowering voters with VoteAlly'
                             pic='/pics/Voteally.png'
                             link='/work/voteally'
                             background='pink' />

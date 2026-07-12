@@ -54,7 +54,7 @@ export default function Innaorganic() {
 </p>
                 </div>
                 <div className='projectContentRow'>
-                    <h4 className='gradientText'>Initial Problem</h4>
+                    <h4 className='gradientText'>Challenge</h4>
                     <p>The core problem was that Inna Organic's website was built for a global audience, not the specific expectations of North American and ASEAN shoppers. As an already-successful brand in Taiwan but a newcomer in these markets, Inna needed to earn trust with unfamiliar customers — and the existing site's generic global framing wasn't doing that or resonating with local preferences.</p>
                 </div>
                 <div className='projectContentRow'>
@@ -174,7 +174,7 @@ export default function Innaorganic() {
                 </div>
             </div>
             <div className='prevNext'>
-                <Link className='subtitle' role="button" to="/"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }} />Back to Work</Link>
+                <Link className='subtitle' role="button" to="/"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }} />See other projects</Link>
                 
             </div>
         </div>

@@ -17,22 +17,30 @@ export default function PAT() {
                         <p className='small'>2024 Aug – 2025 Mar</p>
                     </div>
                     <div className='innerProjectIntro'>
-                        <p className='overline'>role</p>
+                        <p className='overline'>team</p>
+                        <ul className='small'>
+                            <li>2 Developers</li>
+                            <li>2 Data Scientists</li>
+                            <li>3 Stakeholders</li>
+                        </ul>
+                    </div>
+                    <div className='innerProjectIntro'>
+                        <p className='overline'>my role</p>
                         <ul className='small'>
                             <li>Product Design</li>
                             <li>Design Systems</li>
-                            <li>Research</li>
+                            <li>UX Research</li>
                             <li>Product Management</li>
                         </ul>
                     </div>
                     <div className='innerProjectIntro'>
                         <p className='overline'>deliverables</p>
                         <ul className='small'>
-                            <li>UX scope and budget</li>
-                            <li>Impact-vs-effort matrix</li>
+                            <li>UX Scope and Budget</li>
+                            <li>Impact-Effort Matrix</li>
                             <li>Personas</li>
-                            <li>User flow</li>
-                            <li>Hi-fi prototype</li>
+                            <li>User Flow</li>
+                            <li>Hi-Fi Prototype</li>
                         </ul>
                     </div>
                 </div>
@@ -44,22 +52,16 @@ export default function PAT() {
                 <div className='projectContentRow'>
                     <h4 className='gradientText'>Overview</h4>
                     <p>
-                        Procurement Analysis Tool (PAT) is the only platform that helps businesses and local governments{" "}
-                        <span style={{ color: "var(--primary)", fontWeight: 500 }}>
-                            evaluate utility-scale renewable energy procurement
-                        </span>{" "}
-                        by comparing technology costs, locations, and emissions.
-                        <br /><br />
-                        In 2024, the team migrated PAT to a modern development environment to reduce long-term maintenance costs
-                        and align with other lab web tools. I joined as the product designer to{" "}
-                        <span style={{ color: "var(--primary)", fontWeight: 500 }}>
-                            lead high-impact usability improvements
-                        </span>{" "}
-                        while{" "}
-                        <span style={{ color: "var(--primary)", fontWeight: 500 }}>
-                            establishing a Material UI–based design system
-                        </span>{" "}
-                        to improve consistency, streamline design-to-development workflows, and reduce engineering effort.
+                        Procurement Analysis Tool (PAT) is the only platform that helps businesses and local governments evaluate utility-scale renewable energy procurement by comparing technology costs, locations, and emissions.
+                        In 2024, the team began <span style={{ color: "var(--primary)", fontWeight: 500 }}>migrating PAT to a modern development environment</span> to reduce long-term maintenance costs and align with other lab web tools. Alongside the migration, the team also wanted to <span style={{ color: "var(--primary)", fontWeight: 500 }}>address existing usability issues</span> — which is why I was brought onto the project as the product designer.
+
+                    </p>
+                </div>
+                <div className='projectContentRow'>
+                    <h4 className='gradientText'>My Role</h4>
+                    <p>
+                        As the first and only product/UX designer on PAT, I led <span style={{ color: "var(--primary)", fontWeight: 500 }}>high-impact usability improvements</span> while establishing a <span style={{ color: "var(--primary)", fontWeight: 500 }}>Material UI–based design system</span> to improve consistency, streamline design-to-development workflows, and reduce engineering effort. My work was grounded in research — including a <span style={{ color: "var(--primary)", fontWeight: 500 }}>stakeholder interview</span> to align on scope and decision-making, and <span style={{ color: "var(--primary)", fontWeight: 500 }}>2 usability testing sessions</span> to validate design direction. Working within a tight migration timeline and budget, I owned the UX scope, prioritization, and delivery planning end-to-end.
+
                     </p>
                 </div>
                 <div className='projectContentRow'>
@@ -80,12 +82,12 @@ export default function PAT() {
                                 despite migrating to a new development environment and adopting Material UI for the first time
                             </li>
                             <li>
-                                <span style={{ color: "var(--primary)", fontWeight: 500 }}>96%</span>{" "}
-                                of new users reported they would start using the tool immediately after the prototype demo
+                                <span style={{ color: "var(--primary)", fontWeight: 500 }}>89%</span>{" "}
+                                retention of existing users post migration launch
                             </li>
                             <li>
-                                <span style={{ color: "var(--primary)", fontWeight: 500 }}>94%</span>{" "}
-                                retention of existing users post migration launch
+                                In post-demo feedback, <span style={{ color: "var(--primary)", fontWeight: 500 }}>80%</span>{" "}
+                                of 5 prototype testers said they would start using the tool immediately after the prototype demo
                             </li>
                             <li>
                                 Secured continued funding, with leadership committing to a{" "}
@@ -260,8 +262,8 @@ export default function PAT() {
                 </div>
             </div>
             <div className='prevNext'>
-                <Link className='subtitle' role="button" to="/work/new"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }} />New</Link>
-                <Link className='subtitle' role="button" to="/work/Connector">Connector <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }} /></Link>
+                <Link className='subtitle' role="button" to="/"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }} />See other projects</Link>
+                
             </div>
         </div>
     )
