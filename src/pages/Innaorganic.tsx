@@ -19,14 +19,23 @@ export default function Innaorganic() {
                     <div className='innerProjectIntro'>
                         <p className='overline'>team</p>
                         <ul className='small'>
-                            <li>Sandy Lee</li>
+                            <li>2 Developers</li>
+                            <li>1 Visual Designer</li>
                         </ul>
                     </div>
                     <div className='innerProjectIntro'>
-                        <p className='overline'>scope</p>
+                        <p className='overline'>my role</p>
                         <ul className='small'>
-                            <li>UX Research</li>
-                            <li>UX Design</li>
+                            <li>UX Researcher</li>
+                            <li>UX Designer</li>
+                        </ul>
+                    </div>
+                    <div className='innerProjectIntro'>
+                        <p className='overline'>deliverables</p>
+                        <ul className='small'>
+                            <li>Competitor Analysis</li>
+                            <li>User Interview Analysis</li>
+                            <li>Hi-Fidelity Wireframes</li>
                         </ul>
                     </div>
                 </div>
@@ -37,19 +46,24 @@ export default function Innaorganic() {
             <div className='rows'>
                 <div className='projectContentRow'>
                     <h4 className='gradientText'>Overview</h4>
-                    <p>Inna Organic, a prominent Asian organic skincare brand, embarked on a strategic mission to expand its presence within the competitive North American market. As the exclusive in-house UX Designer within the dynamic marketing team, I undertook a transformative project aimed at revitalizing their e-commerce platform. Over the course of a rigorous 12-week journey, the primary goal was to enhance brand communication and bridge the existing gap between the website and North American audiences.</p>
+                    <p>Inna Organic, an established organic skincare brand in Taiwan, was expanding into the North American and ASEAN markets. Its existing website was built for a global/English-speaking audience, but breaking into new markets as a still-unfamiliar brand meant the site needed to build trust with new customers and reflect local audience preferences — not just translate the existing experience.</p>
+                </div>
+                <div className='projectContentRow'>
+                    <h4 className='gradientText'>My Role</h4>
+                    <p>As the sole UX designer on the marketing team, I owned the research and design for redesigning our e-commerce platform to serve North American and ASEAN audiences. Over a 12-week timeline, the goal was to adapt the brand's global site for new markets — building trust with unfamiliar audiences while addressing local preferences in how the brand communicated. My designs were reviewed and approved by C-level stakeholders and successfully handed off to development.
+</p>
                 </div>
                 <div className='projectContentRow'>
                     <h4 className='gradientText'>Initial Problem</h4>
-                    <p>The initial challenge lay in the evident disconnection between the current website and the diverse audiences in North America. It was clear that consumers in this region struggled to resonate with the existing online experience offered by Inna Organic.</p>
+                    <p>The core problem was that Inna Organic's website was built for a global audience, not the specific expectations of North American and ASEAN shoppers. As an already-successful brand in Taiwan but a newcomer in these markets, Inna needed to earn trust with unfamiliar customers — and the existing site's generic global framing wasn't doing that or resonating with local preferences.</p>
                 </div>
                 <div className='projectContentRow'>
                     <h4 className='gradientText'>Results</h4>
                     <p>
                         <ul>
                             <li>Witnessed a <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>60%</span> increase in <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>engagement rates</span>.</li>
-                            <li>Realized a <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>75%</span> surge in <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>revenue</span>, reflecting the project's success.</li>
-                            <li>Achieved a <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>130%</span> growth in the North American <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}> audience</span>.</li>
+                            <li>Contributed to a <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>75%</span> surge in <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>revenue</span>, reflecting the project's success.</li>
+                            <li>Supported <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}>130%</span> growth in the North American <span style={{ color: "var(--primary)", fontWeight: 500, fontStyle: "italic" }}> audience</span>.</li>
                         </ul></p>
                 </div>
             </div>
@@ -160,8 +174,8 @@ export default function Innaorganic() {
                 </div>
             </div>
             <div className='prevNext'>
-                <Link className='subtitle' role="button" to="/work/craigslist"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }} />Craigslist</Link>
-                <Link className='subtitle' role="button" to="/work/sbs">Accessibility for SBS <Icon icon='icon-park-outline:right' style={{ fontSize: '26px' }} /></Link>
+                <Link className='subtitle' role="button" to="/"><Icon icon='icon-park-outline:left' style={{ fontSize: '26px' }} />Back to Work</Link>
+                
             </div>
         </div>
     )

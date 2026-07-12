@@ -27,7 +27,7 @@ export default function Work() {
                         id='PAT'
                         type='UX Research & Product Design • Web • 2024'
                         name="Scaling a legacy tool into a sustainable and user-friendly platform"
-                        description="Led UX strategy, MUI design system adoption, and delivery planning under tight budget and timeline constraints."
+                        description="Led UX strategy, UX design, MUI design system adoption, and delivery planning under tight timeline constraints."
                         pic='/pics/PAT.png'
                         link='/work/PAT'
                         background='grey' />
@@ -41,9 +41,9 @@ export default function Work() {
                         background='green' />
                     <ProjectCard
                         id='project3'
-                        type='UX Design   •   Website   •   2020'
+                        type='UX Research & UX Design   •   Web   •   2020'
                         name="Transforming Inna Organic's E-commerce Website"
-                        description="As the sole in-house UX Designer within the marketing team, I was tasked with reimagining their e-commerce platform as this thriving Asian organic skincare brand expanded its footprint in the North American market. How might we enhance brand communication across cultural boundaries?"
+                        description="Led UX research and design as the sole in-house designer, driving the e-commerce redesign for a Taiwanese skincare brand expanding into the North American and ASEAN markets."
                         pic='/pics/Innaorganic.png'
                         link='/work/innaorganic'
                         background='green' />
